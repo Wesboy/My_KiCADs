@@ -1,0 +1,203 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# +3.3V-DAPLink-cache
+#
+DEF +3.3V-DAPLink-cache #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "+3.3V-DAPLink-cache" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +3V3 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# +3.3V-hack_clock-cache
+#
+DEF +3.3V-hack_clock-cache #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "+3.3V-hack_clock-cache" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +3V3 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# 0402_0Ω__0R0_1%-lc_RES
+#
+DEF 0402_0Ω__0R0_1%-lc_RES R 0 40 N N 1 F N
+F0 "R" -200 90 50 H V L BNN
+F1 "0402_0Ω__0R0_1%-lc_RES" -150 190 50 H I L BNN
+F2 "lc_lib:0402_R" -200 -240 50 H I L BNN
+F3 "http://www.szlcsc.com/product/details_17853.html" -200 -140 50 H I L BNN
+F4 "贴片电阻" 0 0 50 H I C CNN "description"
+F5 "供应商链接" -200 -340 50 H I L BNN "ComponentLink1Description"
+F6 "0402" -200 -440 50 H I L BNN "Package"
+F7 "LC" -200 -540 50 H I L BNN "Supplier"
+F8 "C17168" -200 -640 50 H I L BNN "SuppliersPartNumber"
+F9 "0Ω (0R0) ±1%" -50 90 50 H V L BNN "Comment"
+DRAW
+S -100 -40 100 40 1 1 10 N
+X 1 1 -200 0 100 R 50 50 1 1 P
+X 2 2 200 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 0603_红灯-LC_led
+#
+DEF 0603_红灯-LC_led D 0 40 N N 1 F N
+F0 "D" -1 160 50 H V L BNN
+F1 "0603_红灯-LC_led" 49 260 50 H I L BNN
+F2 "lc_lib:0603_LED_S1" -1 -400 50 H I L BNN
+F3 "http://www.szlcsc.com/product/details_2659.html" -1 -300 50 H I L BNN
+F4 "发光二极管" 0 0 50 H I C CNN "description"
+F5 "供应商链接" -1 -500 50 H I L BNN "ComponentLink1Description"
+F6 "0603" -1 -600 50 H I L BNN "Package"
+F7 "LC" -1 -700 50 H I L BNN "Supplier"
+F8 "C2286" -1 -800 50 H I L BNN "SuppliersPartNumber"
+F9 "红灯 0603" 149 160 50 H V L BNN "Comment"
+DRAW
+P 2 1 1 10 600 0 600 -200 N
+P 2 1 1 10 600 40 670 110 N
+P 2 1 1 10 640 0 710 70 N
+P 4 1 1 10 500 -200 600 -100 500 0 500 -200 f
+P 4 1 1 10 670 110 630 90 650 70 670 110 f
+P 4 1 1 10 710 70 670 50 690 30 710 70 f
+X A A 300 -100 200 R 50 50 1 1 P
+X K K 800 -100 200 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 0603_绿灯-LC_led
+#
+DEF 0603_绿灯-LC_led D 0 40 N N 1 F N
+F0 "D" -1 160 50 H V L BNN
+F1 "0603_绿灯-LC_led" 49 260 50 H I L BNN
+F2 "lc_lib:0603_LED_S1" -1 -400 50 H I L BNN
+F3 "http://www.szlcsc.com/product/details_73152.html" -1 -300 50 H I L BNN
+F4 "发光二极管" 0 0 50 H I C CNN "description"
+F5 "供应商链接" -1 -500 50 H I L BNN "ComponentLink1Description"
+F6 "0603" -1 -600 50 H I L BNN "Package"
+F7 "LC" -1 -700 50 H I L BNN "Supplier"
+F8 "C72043" -1 -800 50 H I L BNN "SuppliersPartNumber"
+F9 "绿灯 0603" 149 160 50 H V L BNN "Comment"
+DRAW
+P 2 1 1 10 600 0 600 -200 N
+P 2 1 1 10 600 40 670 110 N
+P 2 1 1 10 640 0 710 70 N
+P 4 1 1 10 500 -200 600 -100 500 0 500 -200 f
+P 4 1 1 10 670 110 630 90 650 70 670 110 f
+P 4 1 1 10 710 70 670 50 690 30 710 70 f
+X A A 300 -100 200 R 50 50 1 1 P
+X K K 800 -100 200 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 0603_蓝灯-LC_led
+#
+DEF 0603_蓝灯-LC_led D 0 40 N N 1 F N
+F0 "D" -1 160 50 H V L BNN
+F1 "0603_蓝灯-LC_led" 49 260 50 H I L BNN
+F2 "lc_lib:0603_LED_S1" -1 -400 50 H I L BNN
+F3 "http://www.szlcsc.com/product/details_73150.html" -1 -300 50 H I L BNN
+F4 "发光二极管" 0 0 50 H I C CNN "description"
+F5 "供应商链接" -1 -500 50 H I L BNN "ComponentLink1Description"
+F6 "0603" -1 -600 50 H I L BNN "Package"
+F7 "LC" -1 -700 50 H I L BNN "Supplier"
+F8 "C72041" -1 -800 50 H I L BNN "SuppliersPartNumber"
+F9 "蓝灯 0603" 149 160 50 H V L BNN "Comment"
+DRAW
+P 2 1 1 10 600 0 600 -200 N
+P 2 1 1 10 600 40 670 110 N
+P 2 1 1 10 640 0 710 70 N
+P 4 1 1 10 500 -200 600 -100 500 0 500 -200 f
+P 4 1 1 10 670 110 630 90 650 70 670 110 f
+P 4 1 1 10 710 70 670 50 690 30 710 70 f
+X A A 300 -100 200 R 50 50 1 1 P
+X K K 800 -100 200 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# C(MM)-LibCool-matrix_display-rescue
+#
+DEF C(MM)-LibCool-matrix_display-rescue C 0 10 N Y 1 F N
+F0 "C" -50 100 39 H V L CNN
+F1 "C(MM)-LibCool-matrix_display-rescue" -100 -100 39 H V L CNN
+F2 "" 38 -150 30 H V C CNN
+F3 "" 0 0 60 H V C CNN
+$FPLIST
+ SM*
+ C?
+ C1-1
+$ENDFPLIST
+DRAW
+P 2 0 1 0 -20 50 -20 -50 N
+P 2 0 1 0 20 50 20 -50 N
+X ~ 1 -100 0 80 R 40 40 1 1 P
+X ~ 2 100 0 80 L 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RES(M)-LibCool-matrix_display-rescue
+#
+DEF RES(M)-LibCool-matrix_display-rescue R 0 40 Y Y 1 F N
+F0 "R" 0 75 39 H V C CNN
+F1 "RES(M)-LibCool-matrix_display-rescue" 0 -75 39 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+S -75 30 75 -30 0 1 0 N
+X ~ 1 -150 0 75 R 20 20 1 1 I
+X ~ 2 150 0 75 L 20 20 1 1 I
+ENDDRAW
+ENDDEF
+#
+# SMD-5032_2P_8MHz_20ppm_20pF-lc_CrystalOscillator
+#
+DEF SMD-5032_2P_8MHz_20ppm_20pF-lc_CrystalOscillator Y 0 40 Y N 1 F N
+F0 "Y" -1 120 50 H V L BNN
+F1 "SMD-5032_2P_8MHz_20ppm_20pF-lc_CrystalOscillator" 49 220 50 H I L BNN
+F2 "lc_lib:SMD-5032_2P" -1 -270 50 H I L BNN
+F3 "http://www.szlcsc.com/product/details_117214.html" -1 -170 50 H I L BNN
+F4 "贴片晶振" 0 0 50 H I C CNN "description"
+F5 "供应商链接" -1 -370 50 H I L BNN "ComponentLink1Description"
+F6 "SMD-5032_2P" -1 -470 50 H I L BNN "Package"
+F7 "LC" -1 -570 50 H I L BNN "Supplier"
+F8 "C115962" -1 -670 50 H I L BNN "SuppliersPartNumber"
+F9 "8MHz ±20ppm 20pF" 149 120 50 H V L BNN "Comment"
+DRAW
+P 2 1 1 10 400 40 400 -40 N
+P 2 1 1 10 420 70 480 70 N
+P 2 1 1 10 500 40 500 -40 N
+P 4 1 1 10 480 70 480 -70 420 -70 420 70 N
+X OSC1 1 200 0 200 R 50 50 1 1 P
+X OSC2 2 700 0 200 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# SPX3819-DAPLink-cache
+#
+DEF SPX3819-DAPLink-cache U 0 40 Y Y 1 F N
+F0 "U" 0 250 50 H V C CNN
+F1 "SPX3819-DAPLink-cache" 0 -250 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -250 200 250 -200 0 1 0 N
+X VIN 1 -350 100 100 R 50 50 1 1 I
+X GND 2 -350 0 100 R 50 50 1 1 I
+X EN 3 -350 -100 100 R 50 50 1 1 I
+X BYP 4 350 -100 100 L 50 50 1 1 O
+X VOUT 5 350 100 100 L 50 50 1 1 O
+ENDDRAW
+ENDDEF
+#
+#End Library
