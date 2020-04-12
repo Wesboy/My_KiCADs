@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:WDebug_KiCAD-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -15,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L matrix_control_main-cache:matrix_control_main-rescue_CH340E-LibCool-hack_clock-rescue U2
+L WDebug_KiCAD-rescue:matrix_control_main-rescue_CH340E-LibCool-hack_clock-rescue-matrix_control_main-cache U2
 U 1 1 5E0A5A6D
 P 9450 2100
 F 0 "U2" H 9450 2568 50  0000 C CNN
@@ -26,7 +25,7 @@ F 3 "" H 9450 2100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L matrix_control_main-cache:matrix_control_main-rescue_CH340E-LibCool-hack_clock-rescue U3
+L WDebug_KiCAD-rescue:matrix_control_main-rescue_CH340E-LibCool-hack_clock-rescue-matrix_control_main-cache U3
 U 1 1 5E0A647A
 P 9500 3500
 F 0 "U3" H 9500 3968 50  0000 C CNN
@@ -1320,7 +1319,7 @@ F 3 "" H 6600 7400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L matrix_control_main-cache:matrix_control_main-rescue_switch-LibCool-hack_clock-rescue SW1
+L WDebug_KiCAD-rescue:matrix_control_main-rescue_switch-LibCool-hack_clock-rescue-matrix_control_main-cache SW1
 U 1 1 5E3DE2F5
 P 6600 6800
 F 0 "SW1" V 6600 6950 60  0000 L CNN

@@ -314,9 +314,9 @@ $FPLIST
  LED_THT:*
 $ENDFPLIST
 DRAW
-P 2 0 1 8 -50 -50 -50 50 N
+P 2 0 1 10 -50 -50 -50 50 N
 P 2 0 1 0 -50 0 50 0 N
-P 4 0 1 8 50 -50 50 50 -50 0 50 -50 N
+P 4 0 1 10 50 -50 50 50 -50 0 50 -50 N
 P 5 0 1 0 -120 -30 -180 -90 -150 -90 -180 -90 -180 -60 N
 P 5 0 1 0 -70 -30 -130 -90 -100 -90 -130 -90 -130 -60 N
 X K 1 -150 0 100 R 50 50 1 1 P
@@ -415,11 +415,11 @@ X OUT 5 300 100 100 L 50 50 1 1 w
 ENDDRAW
 ENDDEF
 #
-# matrix_control_main-cache_matrix_control_main-rescue_CH340E-LibCool-hack_clock-rescue
+# WDebug_KiCAD-rescue_matrix_control_main-rescue_CH340E-LibCool-hack_clock-rescue-matrix_control_main-cache
 #
-DEF matrix_control_main-cache_matrix_control_main-rescue_CH340E-LibCool-hack_clock-rescue U 0 40 Y Y 1 F N
+DEF WDebug_KiCAD-rescue_matrix_control_main-rescue_CH340E-LibCool-hack_clock-rescue-matrix_control_main-cache U 0 40 Y Y 1 F N
 F0 "U" -250 350 50 H V C CNN
-F1 "matrix_control_main-cache_matrix_control_main-rescue_CH340E-LibCool-hack_clock-rescue" 0 -350 50 H V C CNN
+F1 "WDebug_KiCAD-rescue_matrix_control_main-rescue_CH340E-LibCool-hack_clock-rescue-matrix_control_main-cache" 0 -350 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -440,11 +440,11 @@ X RXD 9 500 100 200 L 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# matrix_control_main-cache_matrix_control_main-rescue_switch-LibCool-hack_clock-rescue
+# WDebug_KiCAD-rescue_matrix_control_main-rescue_switch-LibCool-hack_clock-rescue-matrix_control_main-cache
 #
-DEF matrix_control_main-cache_matrix_control_main-rescue_switch-LibCool-hack_clock-rescue SW 0 40 N N 1 F N
+DEF WDebug_KiCAD-rescue_matrix_control_main-rescue_switch-LibCool-hack_clock-rescue-matrix_control_main-cache SW 0 40 N N 1 F N
 F0 "SW" 0 125 60 H V C CNN
-F1 "matrix_control_main-cache_matrix_control_main-rescue_switch-LibCool-hack_clock-rescue" 0 -100 60 H V C CNN
+F1 "WDebug_KiCAD-rescue_matrix_control_main-rescue_switch-LibCool-hack_clock-rescue-matrix_control_main-cache" 0 -100 60 H V C CNN
 F2 "Switches:1-1437565-7" 0 1000 60 H I C CNN
 F3 "" -280 -475 60 H I C CNN
 DRAW
