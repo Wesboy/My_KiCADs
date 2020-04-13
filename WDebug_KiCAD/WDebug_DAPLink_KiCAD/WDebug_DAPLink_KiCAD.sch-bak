@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:WDebug_DAPLink_KiCAD-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -18,7 +19,7 @@ Wire Wire Line
 Wire Wire Line
 	1550 5900 1550 6250
 $Comp
-L power:GND #PWR0125
+L WDebug_DAPLink_KiCAD-rescue:GND-power #PWR0125
 U 1 1 5E53BAAE
 P 1550 6250
 F 0 "#PWR0125" H 1550 6000 50  0001 C CNN
@@ -29,7 +30,7 @@ F 3 "" H 1550 6250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L WDebug_DAPLink_KiCAD-rescue:MCU_ST_STM32F1_STM32F103C8Tx-DAPLink-cache-WDebug_DAPLink_KiCAD-rescue U2
+L WDebug_DAPLink_KiCAD-rescue:MCU_ST_STM32F1_STM32F103C8Tx-DAPLink-cache-WDebug_DAPLink_KiCAD-rescue-WDebug_DAPLink_KiCAD-rescue U2
 U 1 1 5E5052F0
 P 9000 3150
 F 0 "U2" H 8600 1700 50  0000 C CNN
@@ -54,7 +55,7 @@ Wire Wire Line
 Wire Wire Line
 	1200 5700 1550 5700
 $Comp
-L power:+3.3V #PWR0120
+L WDebug_DAPLink_KiCAD-rescue:+3.3V-power #PWR0120
 U 1 1 5E3BDD1E
 P 1500 5450
 F 0 "#PWR0120" H 1500 5300 50  0001 C CNN
@@ -65,7 +66,7 @@ F 3 "" H 1500 5450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x04 J1
+L WDebug_DAPLink_KiCAD-rescue:Conn_01x04-Connector_Generic J1
 U 1 1 5E3B17F1
 P 1000 5800
 F 0 "J1" H 918 5375 50  0000 C CNN
@@ -112,7 +113,7 @@ Wire Wire Line
 Wire Wire Line
 	4350 1250 4350 1650
 $Comp
-L power:GND #PWR0119
+L WDebug_DAPLink_KiCAD-rescue:GND-power #PWR0119
 U 1 1 5E3107F7
 P 4350 2500
 F 0 "#PWR0119" H 4350 2250 50  0001 C CNN
@@ -123,7 +124,7 @@ F 3 "" H 4350 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR0118
+L WDebug_DAPLink_KiCAD-rescue:+3.3V-power #PWR0118
 U 1 1 5E30FE9D
 P 4350 1250
 F 0 "#PWR0118" H 4350 1100 50  0001 C CNN
@@ -134,7 +135,7 @@ F 3 "" H 4350 1250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:LED D3
+L WDebug_DAPLink_KiCAD-rescue:LED-Device D3
 U 1 1 5E3027D0
 P 4850 2250
 F 0 "D3" H 4750 2300 50  0000 C CNN
@@ -145,7 +146,7 @@ F 3 "~" H 4850 2250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:LED D1
+L WDebug_DAPLink_KiCAD-rescue:LED-Device D1
 U 1 1 5E2FC2F0
 P 4850 1650
 F 0 "D1" H 4750 1700 50  0000 C CNN
@@ -156,7 +157,7 @@ F 3 "~" H 4850 1650 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:LED D2
+L WDebug_DAPLink_KiCAD-rescue:LED-Device D2
 U 1 1 5E2F9190
 P 4850 1950
 F 0 "D2" H 4750 2000 50  0000 C CNN
@@ -167,7 +168,7 @@ F 3 "~" H 4850 1950 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C C2
+L WDebug_DAPLink_KiCAD-rescue:C-Device C2
 U 1 1 5E0EA74B
 P 1800 4550
 F 0 "C2" H 1800 4650 50  0000 L CNN
@@ -227,7 +228,7 @@ Wire Wire Line
 Wire Wire Line
 	2450 4600 2450 4750
 $Comp
-L power:GND #PWR0117
+L WDebug_DAPLink_KiCAD-rescue:GND-power #PWR0117
 U 1 1 5E279A9C
 P 2450 4800
 F 0 "#PWR0117" H 2450 4550 50  0001 C CNN
@@ -246,7 +247,7 @@ Wire Wire Line
 Wire Wire Line
 	1450 4100 1450 4300
 $Comp
-L power:VBUS #PWR0116
+L WDebug_DAPLink_KiCAD-rescue:VBUS-power #PWR0116
 U 1 1 5E27AB27
 P 1450 4100
 F 0 "#PWR0116" H 1450 3950 50  0001 C CNN
@@ -257,7 +258,7 @@ F 3 "" H 1450 4100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR0115
+L WDebug_DAPLink_KiCAD-rescue:+3.3V-power #PWR0115
 U 1 1 5E27A434
 P 3500 4100
 F 0 "#PWR0115" H 3500 3950 50  0001 C CNN
@@ -268,7 +269,7 @@ F 3 "" H 3500 4100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Regulator_Linear:AZ1117-3.3 U1
+L WDebug_DAPLink_KiCAD-rescue:AZ1117-3.3-Regulator_Linear U1
 U 1 1 5E278830
 P 2450 4300
 F 0 "U1" H 2450 4542 50  0000 C CNN
@@ -328,7 +329,7 @@ Wire Wire Line
 Wire Wire Line
 	9600 2950 10200 2950
 $Comp
-L power:+3.3V #PWR0114
+L WDebug_DAPLink_KiCAD-rescue:+3.3V-power #PWR0114
 U 1 1 5E1F9106
 P 10200 2350
 F 0 "#PWR0114" H 10200 2200 50  0001 C CNN
@@ -339,7 +340,7 @@ F 3 "" H 10200 2350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0113
+L WDebug_DAPLink_KiCAD-rescue:GND-power #PWR0113
 U 1 1 5E1F89CF
 P 10200 3450
 F 0 "#PWR0113" H 10200 3200 50  0001 C CNN
@@ -383,7 +384,7 @@ NoConn ~ 8300 2650
 Wire Wire Line
 	7900 2900 7900 3150
 $Comp
-L power:GND #PWR0112
+L WDebug_DAPLink_KiCAD-rescue:GND-power #PWR0112
 U 1 1 5E176E85
 P 7900 3650
 F 0 "#PWR0112" H 7900 3400 50  0001 C CNN
@@ -418,7 +419,7 @@ Wire Wire Line
 Wire Wire Line
 	8300 2050 7950 2050
 $Comp
-L power:GND #PWR0111
+L WDebug_DAPLink_KiCAD-rescue:GND-power #PWR0111
 U 1 1 5E1560D1
 P 7600 2000
 F 0 "#PWR0111" H 7600 1750 50  0001 C CNN
@@ -429,7 +430,7 @@ F 3 "" H 7600 2000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR0110
+L WDebug_DAPLink_KiCAD-rescue:+3.3V-power #PWR0110
 U 1 1 5E155808
 P 7600 1100
 F 0 "#PWR0110" H 7600 950 50  0001 C CNN
@@ -484,7 +485,7 @@ Wire Wire Line
 Wire Wire Line
 	6900 3400 6900 3500
 $Comp
-L power:GND #PWR0109
+L WDebug_DAPLink_KiCAD-rescue:GND-power #PWR0109
 U 1 1 5E133934
 P 7250 3650
 F 0 "#PWR0109" H 7250 3400 50  0001 C CNN
@@ -526,7 +527,7 @@ Wire Wire Line
 Wire Wire Line
 	3550 3000 3550 3100
 $Comp
-L power:GND #PWR0108
+L WDebug_DAPLink_KiCAD-rescue:GND-power #PWR0108
 U 1 1 5E11C0CF
 P 3200 3450
 F 0 "#PWR0108" H 3200 3200 50  0001 C CNN
@@ -570,7 +571,7 @@ Wire Wire Line
 Wire Wire Line
 	2300 2250 2600 2250
 $Comp
-L power:VBUS #PWR0106
+L WDebug_DAPLink_KiCAD-rescue:VBUS-power #PWR0106
 U 1 1 5E0EE49F
 P 2450 1550
 F 0 "#PWR0106" H 2450 1400 50  0001 C CNN
@@ -581,7 +582,7 @@ F 3 "" H 2450 1550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR0105
+L WDebug_DAPLink_KiCAD-rescue:+3.3V-power #PWR0105
 U 1 1 5E0EDAA0
 P 3300 1650
 F 0 "#PWR0105" H 3300 1500 50  0001 C CNN
@@ -592,18 +593,18 @@ F 3 "" H 3300 1650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C6
+L WDebug_DAPLink_KiCAD-rescue:C-Device C6
 U 1 1 5E0EB136
 P 3500 4550
 F 0 "C6" H 3500 4650 50  0000 L CNN
 F 1 "10uF" H 3500 4450 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric" H 3538 4400 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3538 4400 50  0001 C CNN
 F 3 "~" H 3500 4550 50  0001 C CNN
 	1    3500 4550
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C5
+L WDebug_DAPLink_KiCAD-rescue:C-Device C5
 U 1 1 5E0EAE03
 P 3200 4550
 F 0 "C5" H 3200 4650 50  0000 L CNN
@@ -614,7 +615,7 @@ F 3 "~" H 3200 4550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C3
+L WDebug_DAPLink_KiCAD-rescue:C-Device C3
 U 1 1 5E0EAA88
 P 2900 4550
 F 0 "C3" H 2900 4650 50  0000 L CNN
@@ -625,7 +626,7 @@ F 3 "~" H 2900 4550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C10
+L WDebug_DAPLink_KiCAD-rescue:C-Device C10
 U 1 1 5E0EA4DE
 P 7600 1650
 F 0 "C10" H 7715 1696 50  0000 L CNN
@@ -636,7 +637,7 @@ F 3 "~" H 7600 1650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C4
+L WDebug_DAPLink_KiCAD-rescue:C-Device C4
 U 1 1 5E0EA22F
 P 3200 2850
 F 0 "C4" H 3250 2950 50  0000 L CNN
@@ -647,7 +648,7 @@ F 3 "~" H 3200 2850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C7
+L WDebug_DAPLink_KiCAD-rescue:C-Device C7
 U 1 1 5E0E9EF4
 P 3550 2850
 F 0 "C7" H 3600 2950 50  0000 L CNN
@@ -658,7 +659,7 @@ F 3 "~" H 3550 2850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C9
+L WDebug_DAPLink_KiCAD-rescue:C-Device C9
 U 1 1 5E0E9AC0
 P 7550 3250
 F 0 "C9" H 7665 3296 50  0000 L CNN
@@ -669,7 +670,7 @@ F 3 "~" H 7550 3250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C1
+L WDebug_DAPLink_KiCAD-rescue:C-Device C1
 U 1 1 5E0E976F
 P 1450 4550
 F 0 "C1" H 1450 4650 50  0000 L CNN
@@ -680,7 +681,7 @@ F 3 "~" H 1450 4550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C8
+L WDebug_DAPLink_KiCAD-rescue:C-Device C8
 U 1 1 5E0E8290
 P 6900 3250
 F 0 "C8" H 7015 3296 50  0000 L CNN
@@ -691,18 +692,18 @@ F 3 "~" H 6900 3250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Crystal_GND24 Y1
+L WDebug_DAPLink_KiCAD-rescue:Crystal_GND24-Device Y1
 U 1 1 5E0E73EF
 P 7250 2900
 F 0 "Y1" H 7350 3100 50  0000 L CNN
 F 1 "8MHz" H 7300 2700 50  0000 L CNN
-F 2 "Crystal:Crystal_SMD_5032-4Pin_5.0x3.2mm" H 7250 2900 50  0001 C CNN
+F 2 "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm" H 7250 2900 50  0001 C CNN
 F 3 "~" H 7250 2900 50  0001 C CNN
 	1    7250 2900
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small_US R7
+L WDebug_DAPLink_KiCAD-rescue:R_Small_US-Device R7
 U 1 1 5E0E36E3
 P 7250 2450
 F 0 "R7" V 7200 2350 50  0000 C CNN
@@ -713,7 +714,7 @@ F 3 "~" H 7250 2450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small_US R10
+L WDebug_DAPLink_KiCAD-rescue:R_Small_US-Device R10
 U 1 1 5E0E32D3
 P 7800 1850
 F 0 "R10" V 7750 1750 50  0000 C CNN
@@ -724,7 +725,7 @@ F 3 "~" H 7800 1850 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small_US R8
+L WDebug_DAPLink_KiCAD-rescue:R_Small_US-Device R8
 U 1 1 5E0E2F42
 P 7600 1250
 F 0 "R8" H 7550 1350 50  0000 C CNN
@@ -735,7 +736,7 @@ F 3 "~" H 7600 1250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small_US R6
+L WDebug_DAPLink_KiCAD-rescue:R_Small_US-Device R6
 U 1 1 5E0E2586
 P 5350 2250
 F 0 "R6" V 5300 2150 50  0000 C CNN
@@ -746,7 +747,7 @@ F 3 "~" H 5350 2250 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small_US R5
+L WDebug_DAPLink_KiCAD-rescue:R_Small_US-Device R5
 U 1 1 5E0E2281
 P 5350 1950
 F 0 "R5" V 5300 1850 50  0000 C CNN
@@ -757,7 +758,7 @@ F 3 "~" H 5350 1950 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small_US R4
+L WDebug_DAPLink_KiCAD-rescue:R_Small_US-Device R4
 U 1 1 5E0E1F6A
 P 5350 1650
 F 0 "R4" V 5300 1550 50  0000 C CNN
@@ -768,7 +769,7 @@ F 3 "~" H 5350 1650 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small_US R13
+L WDebug_DAPLink_KiCAD-rescue:R_Small_US-Device R13
 U 1 1 5E0E1C47
 P 10200 3150
 F 0 "R13" H 10250 3050 50  0000 C CNN
@@ -779,7 +780,7 @@ F 3 "~" H 10200 3150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small_US R12
+L WDebug_DAPLink_KiCAD-rescue:R_Small_US-Device R12
 U 1 1 5E0E1822
 P 10200 2650
 F 0 "R12" H 10250 2550 50  0000 C CNN
@@ -790,7 +791,7 @@ F 3 "~" H 10200 2650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small_US R3
+L WDebug_DAPLink_KiCAD-rescue:R_Small_US-Device R3
 U 1 1 5E0E07B5
 P 3050 2000
 F 0 "R3" V 3000 1900 50  0000 C CNN
@@ -801,7 +802,7 @@ F 3 "~" H 3050 2000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small_US R2
+L WDebug_DAPLink_KiCAD-rescue:R_Small_US-Device R2
 U 1 1 5E0DE909
 P 2700 2450
 F 0 "R2" V 2650 2350 50  0000 C CNN
@@ -812,7 +813,7 @@ F 3 "~" H 2700 2450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small_US R1
+L WDebug_DAPLink_KiCAD-rescue:R_Small_US-Device R1
 U 1 1 5E0DDB26
 P 2700 2250
 F 0 "R1" V 2650 2150 50  0000 C CNN
@@ -877,7 +878,7 @@ Wire Wire Line
 Wire Wire Line
 	8800 4650 8800 4800
 $Comp
-L power:GND #PWR0102
+L WDebug_DAPLink_KiCAD-rescue:GND-power #PWR0102
 U 1 1 5E0D0E55
 P 8800 5000
 F 0 "#PWR0102" H 8800 4750 50  0001 C CNN
@@ -888,7 +889,7 @@ F 3 "" H 8800 5000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR0101
+L WDebug_DAPLink_KiCAD-rescue:+3.3V-power #PWR0101
 U 1 1 5E0D08E9
 P 8800 1250
 F 0 "#PWR0101" H 8800 1100 50  0001 C CNN
@@ -903,7 +904,7 @@ Wire Wire Line
 Wire Wire Line
 	7600 1450 8100 1450
 $Comp
-L Device:R_Small_US R11
+L WDebug_DAPLink_KiCAD-rescue:R_Small_US-Device R11
 U 1 1 5E0E2BBE
 P 7900 2800
 F 0 "R11" H 7800 2700 50  0000 C CNN
@@ -916,7 +917,7 @@ $EndComp
 Wire Wire Line
 	7900 2550 7900 2700
 $Comp
-L Device:R_Small_US R14
+L WDebug_DAPLink_KiCAD-rescue:R_Small_US-Device R14
 U 1 1 5E8FAC73
 P 8100 3150
 F 0 "R14" V 8150 3250 50  0000 C CNN
@@ -929,55 +930,55 @@ $EndComp
 Wire Wire Line
 	8200 3150 8300 3150
 Wire Wire Line
-	5450 3200 4850 3200
+	5950 3200 5350 3200
 Wire Wire Line
-	5450 3300 4850 3300
+	5950 3300 5350 3300
 Wire Wire Line
-	5450 3400 4850 3400
+	5950 3400 5350 3400
 Wire Wire Line
-	5450 3500 4850 3500
+	5950 3500 5350 3500
 Wire Wire Line
-	5450 3600 4850 3600
+	5950 3600 5350 3600
 Wire Wire Line
-	5450 3700 4850 3700
+	5950 3700 5350 3700
 Wire Wire Line
-	5450 3800 4850 3800
+	5950 3800 5350 3800
 Wire Wire Line
-	5450 4000 4400 4000
+	5950 4000 4900 4000
 Wire Wire Line
-	5450 4100 5250 4100
+	5950 4100 5750 4100
 Wire Wire Line
-	5250 4100 5250 4400
+	5750 4100 5750 4400
 Wire Wire Line
-	5450 4400 5250 4400
-Connection ~ 5250 4400
+	5950 4400 5750 4400
+Connection ~ 5750 4400
 Wire Wire Line
-	5250 4400 5250 4500
+	5750 4400 5750 4500
 Wire Wire Line
-	5450 4500 5250 4500
-Connection ~ 5250 4500
+	5950 4500 5750 4500
+Connection ~ 5750 4500
 Wire Wire Line
-	5250 4500 5250 4700
+	5750 4500 5750 4700
 $Comp
-L power:GND #PWR0103
+L WDebug_DAPLink_KiCAD-rescue:GND-power #PWR0103
 U 1 1 5E9EA1F8
-P 5250 4700
-F 0 "#PWR0103" H 5250 4450 50  0001 C CNN
-F 1 "GND" H 5255 4527 50  0000 C CNN
-F 2 "" H 5250 4700 50  0001 C CNN
-F 3 "" H 5250 4700 50  0001 C CNN
-	1    5250 4700
+P 5750 4700
+F 0 "#PWR0103" H 5750 4450 50  0001 C CNN
+F 1 "GND" H 5755 4527 50  0000 C CNN
+F 2 "" H 5750 4700 50  0001 C CNN
+F 3 "" H 5750 4700 50  0001 C CNN
+	1    5750 4700
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR0104
+L WDebug_DAPLink_KiCAD-rescue:+3.3V-power #PWR0104
 U 1 1 5E9EB13C
-P 4400 4000
-F 0 "#PWR0104" H 4400 3850 50  0001 C CNN
-F 1 "+3.3V" V 4415 4128 50  0000 L CNN
-F 2 "" H 4400 4000 50  0001 C CNN
-F 3 "" H 4400 4000 50  0001 C CNN
-	1    4400 4000
+P 4900 4000
+F 0 "#PWR0104" H 4900 3850 50  0001 C CNN
+F 1 "+3.3V" V 4915 4128 50  0000 L CNN
+F 2 "" H 4900 4000 50  0001 C CNN
+F 3 "" H 4900 4000 50  0001 C CNN
+	1    4900 4000
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
@@ -1000,48 +1001,48 @@ Text Label 3400 5800 2    50   ~ 0
 TX1
 Text Label 3400 5900 2    50   ~ 0
 T_TX
-Text Label 4850 3200 0    50   ~ 0
+Text Label 5350 3200 0    50   ~ 0
 TX1
-Text Label 4850 3300 0    50   ~ 0
+Text Label 5350 3300 0    50   ~ 0
 RX1
-Text Label 4850 3600 0    50   Italic 0
+Text Label 5350 3600 0    50   Italic 0
 TX2
-Text Label 4850 3700 0    50   Italic 0
+Text Label 5350 3700 0    50   Italic 0
 RX2
-Text Label 4850 3400 0    50   Italic 0
+Text Label 5350 3400 0    50   Italic 0
 T_SWCLK
-Text Label 4850 3500 0    50   Italic 0
+Text Label 5350 3500 0    50   Italic 0
 T_SWDIO
-Text Label 4850 3800 0    50   Italic 0
+Text Label 5350 3800 0    50   Italic 0
 TG_RST
-NoConn ~ 5450 2800
-NoConn ~ 5450 2900
-NoConn ~ 5450 3000
-NoConn ~ 5450 3100
-NoConn ~ 5450 4200
-NoConn ~ 5450 4300
+NoConn ~ 5950 2800
+NoConn ~ 5950 2900
+NoConn ~ 5950 3000
+NoConn ~ 5950 3100
+NoConn ~ 5950 4200
+NoConn ~ 5950 4300
 $Comp
 L Connector:Conn_01x18_Female J5
 U 1 1 5E948B21
-P 5650 3600
-F 0 "J5" H 5678 3576 50  0000 L CNN
-F 1 "Conn_01x18_Female" H 5300 2550 50  0000 L CNN
-F 2 "WDebug_KiCAD:1x16_P1.0mm" H 5650 3600 50  0001 C CNN
-F 3 "~" H 5650 3600 50  0001 C CNN
-	1    5650 3600
+P 6150 3600
+F 0 "J5" H 6178 3576 50  0000 L CNN
+F 1 "01x18_Female_Fan" H 5800 2550 50  0000 L CNN
+F 2 "WDebug_KiCAD:1x16_P1.0mm" H 6150 3600 50  0001 C CNN
+F 3 "~" H 6150 3600 50  0001 C CNN
+	1    6150 3600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5450 3900 4850 3900
-Text Label 4850 3900 0    50   ~ 0
+	5950 3900 5350 3900
+Text Label 5350 3900 0    50   ~ 0
 T_SWO
 $Comp
-L Connector_Generic:Conn_02x04_Top_Bottom J2
+L WDebug_DAPLink_KiCAD-rescue:Conn_02x04_Top_Bottom-Connector_Generic J2
 U 1 1 5E7FA6D5
 P 2700 5700
 F 0 "J2" H 2750 6017 50  0000 C CNN
 F 1 "Conn_02x04_UART_SW" H 2750 5926 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x04_P2.54mm_Vertical" H 2700 5700 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical" H 2700 5700 50  0001 C CNN
 F 3 "~" H 2700 5700 50  0001 C CNN
 	1    2700 5700
 	1    0    0    -1  
@@ -1059,7 +1060,7 @@ T_RX
 Text Label 2150 5900 0    50   ~ 0
 T_TX
 $Comp
-L Switch:SW_Push SW1
+L WDebug_DAPLink_KiCAD-rescue:SW_Push-Switch SW1
 U 1 1 5E85FFF2
 P 10450 5700
 F 0 "SW1" V 10404 5848 50  0000 L CNN
@@ -1070,7 +1071,7 @@ F 3 "~" H 10450 5900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR0107
+L WDebug_DAPLink_KiCAD-rescue:GND-power #PWR0107
 U 1 1 5E860F94
 P 10450 6100
 F 0 "#PWR0107" H 10450 5850 50  0001 C CNN
@@ -1081,7 +1082,7 @@ F 3 "" H 10450 6100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small_US R15
+L WDebug_DAPLink_KiCAD-rescue:R_Small_US-Device R15
 U 1 1 5E87C887
 P 10100 5350
 F 0 "R15" V 10050 5250 50  0000 C CNN
@@ -1100,7 +1101,7 @@ Wire Wire Line
 Wire Wire Line
 	10450 5900 10450 6000
 $Comp
-L Device:C C11
+L WDebug_DAPLink_KiCAD-rescue:C-Device C11
 U 1 1 5E89EFBF
 P 9900 5800
 F 0 "C11" H 10015 5846 50  0000 L CNN
@@ -1127,13 +1128,132 @@ TG_RST
 $Comp
 L Connector:Conn_01x20_Female J3
 U 1 1 5E98C7BB
-P 5650 6250
-F 0 "J3" H 5678 6226 50  0000 L CNN
-F 1 "Conn_01x20_Female" H 5678 6135 50  0000 L CNN
-F 2 "WDebug_KiCAD:1x18_P1.0mm" H 5650 6250 50  0001 C CNN
-F 3 "~" H 5650 6250 50  0001 C CNN
-	1    5650 6250
+P 6150 6250
+F 0 "J3" H 6178 6226 50  0000 L CNN
+F 1 "Conn_01x20_Female" H 6178 6135 50  0000 L CNN
+F 2 "WDebug_KiCAD:1x18_P1.0mm" H 6150 6250 50  0001 C CNN
+F 3 "~" H 6150 6250 50  0001 C CNN
+	1    6150 6250
 	1    0    0    -1  
 $EndComp
 NoConn ~ 9600 3450
+$Comp
+L Connector:Conn_01x05_Male J4
+U 1 1 5E944D28
+P 2350 6800
+F 0 "J4" H 2458 7181 50  0000 C CNN
+F 1 "Conn_01x05_Male" H 2458 7090 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 2350 6800 50  0001 C CNN
+F 3 "~" H 2350 6800 50  0001 C CNN
+	1    2350 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L WDebug_DAPLink_KiCAD-rescue:+3.3V-power #PWR0121
+U 1 1 5E947206
+P 3000 6400
+F 0 "#PWR0121" H 3000 6250 50  0001 C CNN
+F 1 "+3.3V" H 3015 6573 50  0000 C CNN
+F 2 "" H 3000 6400 50  0001 C CNN
+F 3 "" H 3000 6400 50  0001 C CNN
+	1    3000 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L WDebug_DAPLink_KiCAD-rescue:GND-power #PWR0122
+U 1 1 5E950146
+P 3000 7150
+F 0 "#PWR0122" H 3000 6900 50  0001 C CNN
+F 1 "GND" H 3005 6977 50  0000 C CNN
+F 2 "" H 3000 7150 50  0001 C CNN
+F 3 "" H 3000 7150 50  0001 C CNN
+	1    3000 7150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2550 6600 3000 6600
+Wire Wire Line
+	3000 6600 3000 6400
+Wire Wire Line
+	2550 7000 3000 7000
+Wire Wire Line
+	3000 7000 3000 7150
+Wire Wire Line
+	2550 6700 3000 6700
+Wire Wire Line
+	2550 6800 3000 6800
+Wire Wire Line
+	2550 6900 3000 6900
+Text Label 3000 6700 2    50   ~ 0
+T_SWCLK
+Text Label 3000 6800 2    50   ~ 0
+T_SWDIO
+Text Label 3000 6900 2    50   ~ 0
+TG_RST
+Wire Wire Line
+	5750 7250 5750 7450
+$Comp
+L WDebug_DAPLink_KiCAD-rescue:GND-power #PWR0123
+U 1 1 5E96585B
+P 5750 7450
+F 0 "#PWR0123" H 5750 7200 50  0001 C CNN
+F 1 "GND" H 5755 7277 50  0000 C CNN
+F 2 "" H 5750 7450 50  0001 C CNN
+F 3 "" H 5750 7450 50  0001 C CNN
+	1    5750 7450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5950 7250 5750 7250
+Wire Wire Line
+	5950 7150 5750 7150
+Wire Wire Line
+	5750 7150 5750 7250
+Connection ~ 5750 7250
+Wire Wire Line
+	5950 6650 5750 6650
+Wire Wire Line
+	5750 6650 5750 7150
+Connection ~ 5750 7150
+Wire Wire Line
+	5950 7050 5350 7050
+Wire Wire Line
+	5950 6950 5350 6950
+Wire Wire Line
+	5950 6850 5350 6850
+Wire Wire Line
+	5950 6750 5350 6750
+Wire Wire Line
+	5950 6150 5350 6150
+Wire Wire Line
+	5950 6250 5350 6250
+Wire Wire Line
+	5950 6350 5350 6350
+Text Label 5350 7050 0    50   ~ 0
+RX1
+Text Label 5350 6950 0    50   ~ 0
+TX1
+Text Label 5350 6850 0    50   ~ 0
+T_SWCLK
+Text Label 5350 6750 0    50   ~ 0
+T_SWDIO
+Text Label 5350 6350 0    50   ~ 0
+TG_RST
+Text Label 5350 6250 0    50   ~ 0
+RX2
+Text Label 5350 6150 0    50   ~ 0
+TX2
+NoConn ~ 5950 5350
+NoConn ~ 5950 5450
+NoConn ~ 5950 5550
+NoConn ~ 5950 5650
+NoConn ~ 5950 5750
+NoConn ~ 5950 5850
+NoConn ~ 5950 5950
+NoConn ~ 5950 6050
+Wire Wire Line
+	5950 6450 5350 6450
+NoConn ~ 5950 6550
+Text Label 5350 6450 0    50   ~ 0
+T_SWO
 $EndSCHEMATC

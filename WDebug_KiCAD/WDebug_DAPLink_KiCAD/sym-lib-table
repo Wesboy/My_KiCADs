@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name WDebug_DAPLink_KiCAD-rescue)(type Legacy)(uri ${KIPRJMOD}/WDebug_DAPLink_KiCAD-rescue.lib)(options "")(descr ""))
+)
