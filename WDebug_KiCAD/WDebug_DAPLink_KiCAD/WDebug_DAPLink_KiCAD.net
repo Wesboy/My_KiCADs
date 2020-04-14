@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source D:\git-manager\My_KiCADs\WDebug_KiCAD\WDebug_DAPLink_KiCAD\WDebug_DAPLink_KiCAD.sch)
-    (date "2020/4/13 13:11:49")
+    (date "2020/4/14 14:56:08")
     (tool "Eeschema (5.1.4)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -212,7 +212,7 @@
       (tstamp 5E0DDB26))
     (comp (ref P1)
       (value USB_C_Plug_USB2.0)
-      (footprint matrix_control_main:USB-Type-C)
+      (footprint WDebug_DAPLink:USB-Type-C)
       (datasheet https://www.usb.org/sites/default/files/documents/usb_type-c.zip)
       (libsource (lib Connector) (part USB_C_Plug_USB2.0) (description "USB 2.0-only Type-C Plug connector"))
       (sheetpath (names /) (tstamps /))
@@ -247,7 +247,7 @@
       (tstamp 5E7FA6D5))
     (comp (ref SW1)
       (value SW_Rst)
-      (footprint matrix_control_main:SWITCH_PUSH)
+      (footprint WDebug_DAPLink:SWITCH_PUSH)
       (datasheet ~)
       (libsource (lib WDebug_DAPLink_KiCAD-rescue) (part SW_Push-Switch) (description ""))
       (sheetpath (names /) (tstamps /))

@@ -829,7 +829,7 @@ U 1 1 5E0DCA6A
 P 1700 2350
 F 0 "P1" H 1807 3217 50  0000 C CNN
 F 1 "USB_C_Plug_USB2.0" H 1807 3126 50  0000 C CNN
-F 2 "matrix_control_main:USB-Type-C" H 1850 2350 50  0001 C CNN
+F 2 "WDebug_DAPLink:USB-Type-C" H 1850 2350 50  0001 C CNN
 F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 1850 2350 50  0001 C CNN
 	1    1700 2350
 	1    0    0    -1  
@@ -1065,7 +1065,7 @@ U 1 1 5E85FFF2
 P 10450 5700
 F 0 "SW1" V 10404 5848 50  0000 L CNN
 F 1 "SW_Rst" V 10495 5848 50  0000 L CNN
-F 2 "matrix_control_main:SWITCH_PUSH" H 10450 5900 50  0001 C CNN
+F 2 "WDebug_DAPLink:SWITCH_PUSH" H 10450 5900 50  0001 C CNN
 F 3 "~" H 10450 5900 50  0001 C CNN
 	1    10450 5700
 	0    1    1    0   
@@ -1256,10 +1256,10 @@ Wire Wire Line
 Text Label 5350 6450 0    50   ~ 0
 T_SWO
 $Comp
-L WDebug_DAPLink_KiCAD-rescue:+3.3V-power #PWR?
+L WDebug_DAPLink_KiCAD-rescue:+3.3V-power #PWR0124
 U 1 1 5EA83DB7
 P 4950 6000
-F 0 "#PWR?" H 4950 5850 50  0001 C CNN
+F 0 "#PWR0124" H 4950 5850 50  0001 C CNN
 F 1 "+3.3V" H 4965 6173 50  0000 C CNN
 F 2 "" H 4950 6000 50  0001 C CNN
 F 3 "" H 4950 6000 50  0001 C CNN
