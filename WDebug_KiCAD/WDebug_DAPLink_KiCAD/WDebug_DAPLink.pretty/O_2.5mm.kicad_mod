@@ -1,0 +1,23 @@
+(module O_2.5mm (layer F.Cu) (tedit 5DD38C25)
+  (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value O_2.5mm (at 1.27 3.81) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text user CONN_1 (at 0 -3.81) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text user P1 (at -0.25 0.02) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 thru_hole circle (at -1.26 -1.26) (size 0.6 0.6) (drill 0.35) (layers *.Cu *.Mask))
+  (pad 1 thru_hole circle (at 0 -1.78) (size 0.6 0.6) (drill 0.35) (layers *.Cu *.Mask))
+  (pad 1 thru_hole circle (at -1.26 1.26) (size 0.6 0.6) (drill 0.35) (layers *.Cu *.Mask))
+  (pad 1 thru_hole circle (at -1.78 0) (size 0.6 0.6) (drill 0.35) (layers *.Cu *.Mask))
+  (pad 1 thru_hole circle (at 0 1.78) (size 0.6 0.6) (drill 0.35) (layers *.Cu *.Mask))
+  (pad 1 thru_hole circle (at 1.26 1.26) (size 0.6 0.6) (drill 0.35) (layers *.Cu *.Mask))
+  (pad 1 thru_hole circle (at 0 0) (size 4.56 4.56) (drill 2.56) (layers *.Cu *.Mask))
+  (pad 1 thru_hole circle (at 1.78 0) (size 0.6 0.6) (drill 0.35) (layers *.Cu *.Mask))
+  (pad 1 thru_hole circle (at 1.26 -1.26) (size 0.6 0.6) (drill 0.35) (layers *.Cu *.Mask))
+)
