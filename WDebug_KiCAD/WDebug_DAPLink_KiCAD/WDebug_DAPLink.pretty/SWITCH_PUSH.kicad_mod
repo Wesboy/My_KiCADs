@@ -1,4 +1,4 @@
-(module SWITCH_PUSH (layer F.Cu) (tedit 5E955A1D)
+(module SWITCH_PUSH (layer F.Cu) (tedit 5E965C45)
   (fp_text reference SW2 (at 5.15 -1.38 90) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -18,13 +18,8 @@
   (pad 1 smd rect (at 3.5814 0.8318) (size 2 1) (layers F.Cu F.Paste F.Mask))
   (pad 0 thru_hole circle (at -1.16271 0.7682) (size 1 1) (drill 0.8) (layers *.Cu *.Mask F.Paste F.SilkS))
   (pad 0 thru_hole circle (at 1.13731 0.7682) (size 1 1) (drill 0.8) (layers *.Cu *.Mask F.SilkS))
-  (model ":WeissLib:E-Switch - TL3330AF130QG.WRL"
-    (at (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
   (model ":WeissLib:E-Switch - TL3330AF130QG.step"
-    (offset (xyz -4 -1.5 0))
+    (offset (xyz -3.8 -1 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
   )

@@ -824,7 +824,7 @@ F 3 "~" H 2700 2250 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:USB_C_Plug_USB2.0 P1
+L WDebug_DAPLink_KiCAD-rescue:USB_C_Plug_USB2.0-Connector P1
 U 1 1 5E0DCA6A
 P 1700 2350
 F 0 "P1" H 1807 3217 50  0000 C CNN
@@ -1002,13 +1002,13 @@ TX1
 Text Label 3400 5900 2    50   ~ 0
 T_TX
 Text Label 5350 3200 0    50   ~ 0
-TX1
-Text Label 5350 3300 0    50   ~ 0
 RX1
+Text Label 5350 3300 0    50   ~ 0
+TX1
 Text Label 5350 3600 0    50   Italic 0
-TX2
-Text Label 5350 3700 0    50   Italic 0
 RX2
+Text Label 5350 3700 0    50   Italic 0
+TX2
 Text Label 5350 3400 0    50   Italic 0
 T_SWCLK
 Text Label 5350 3500 0    50   Italic 0
@@ -1022,12 +1022,12 @@ NoConn ~ 5950 3100
 NoConn ~ 5950 4200
 NoConn ~ 5950 4300
 $Comp
-L Connector:Conn_01x18_Female J5
+L WDebug_DAPLink_KiCAD-rescue:Conn_01x18_Female-Connector J5
 U 1 1 5E948B21
 P 6150 3600
 F 0 "J5" H 6178 3576 50  0000 L CNN
 F 1 "01x18_Female_Fan" H 5800 2550 50  0000 L CNN
-F 2 "WDebug_KiCAD:1x16_P1.0mm" H 6150 3600 50  0001 C CNN
+F 2 "WDebug_DAPLink:1x16_P1.0mm" H 6150 3600 50  0001 C CNN
 F 3 "~" H 6150 3600 50  0001 C CNN
 	1    6150 3600
 	1    0    0    -1  
@@ -1126,7 +1126,7 @@ Wire Wire Line
 Text Label 9650 5350 0    50   ~ 0
 TG_RST
 $Comp
-L Connector:Conn_01x20_Female J3
+L WDebug_DAPLink_KiCAD-rescue:Conn_01x20_Female-Connector J3
 U 1 1 5E98C7BB
 P 6150 6250
 F 0 "J3" H 6178 6226 50  0000 L CNN
@@ -1138,7 +1138,7 @@ F 3 "~" H 6150 6250 50  0001 C CNN
 $EndComp
 NoConn ~ 9600 3450
 $Comp
-L Connector:Conn_01x05_Male J4
+L WDebug_DAPLink_KiCAD-rescue:Conn_01x05_Male-Connector J4
 U 1 1 5E944D28
 P 2350 6800
 F 0 "J4" H 2458 7181 50  0000 C CNN
@@ -1230,9 +1230,9 @@ Wire Wire Line
 Wire Wire Line
 	5950 6350 5350 6350
 Text Label 5350 7050 0    50   ~ 0
-RX1
-Text Label 5350 6950 0    50   ~ 0
 TX1
+Text Label 5350 6950 0    50   ~ 0
+RX1
 Text Label 5350 6850 0    50   ~ 0
 T_SWCLK
 Text Label 5350 6750 0    50   ~ 0
@@ -1240,9 +1240,9 @@ T_SWDIO
 Text Label 5350 6350 0    50   ~ 0
 TG_RST
 Text Label 5350 6250 0    50   ~ 0
-RX2
-Text Label 5350 6150 0    50   ~ 0
 TX2
+Text Label 5350 6150 0    50   ~ 0
+RX2
 NoConn ~ 5950 5350
 NoConn ~ 5950 5450
 NoConn ~ 5950 5550
