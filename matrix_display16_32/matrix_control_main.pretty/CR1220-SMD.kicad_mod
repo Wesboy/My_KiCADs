@@ -1,4 +1,4 @@
-(module CR1220-SMD (layer F.Cu) (tedit 5DAECB6B)
+(module CR1220-SMD (layer F.Cu) (tedit 5EA0E519)
   (fp_text reference BT1 (at -8.5 3.13 90) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -16,18 +16,13 @@
   (pad 1 smd rect (at 8.5 0) (size 3.6 2) (layers F.Cu F.Paste F.Mask))
   (pad 0 thru_hole circle (at -3.75 0) (size 1.1 1.1) (drill 1) (layers *.Cu *.Mask F.SilkS))
   (pad 0 thru_hole circle (at 3.75 0) (size 1.4 1.4) (drill 1.3) (layers *.Cu *.Mask F.SilkS))
-  (model D:/software/KICAD/NewLibcool.pretty-master/NewLibCool.3dshapes/CR1220_SMD/CR1220_SMD.wrl
-    (at (xyz 0 0 0))
+  (model :WeissLib:ALSRobot-CR1220.STEP
+    (offset (xyz 7.5 -7.5 -0.85))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
+    (rotate (xyz -90 0 -90))
   )
-  (model D:/software/KICAD/NewLibcool.pretty-master/NewLibCool.3dshapes/CR1220_SMD/CR1220_SMD_001.wrl
-    (at (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
-  (model D:/software/KICAD/NewLibcool.pretty-master/NewLibCool.3dshapes/CR1220_SMD/CR1220_SMD_002.wrl
-    (at (xyz 0 0 0))
+  (model ":WeissLib:ALSRobot-CR1220 BAT.step"
+    (offset (xyz 0 0 1.5))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )

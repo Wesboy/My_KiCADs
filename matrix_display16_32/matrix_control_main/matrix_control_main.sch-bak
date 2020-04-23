@@ -56,7 +56,7 @@ Wire Wire Line
 Wire Wire Line
 	4450 2200 4450 2450
 $Comp
-L power:GND #PWR0103
+L matrix_control_main-rescue:GND-power #PWR0103
 U 1 1 5E09737A
 P 1750 2400
 F 0 "#PWR0103" H 1750 2150 50  0001 C CNN
@@ -85,7 +85,7 @@ U 1 1 5E098EF2
 P 1350 2450
 F 0 "SW1" H 1250 2350 60  0000 L CNN
 F 1 "RST" V 1403 2552 60  0001 L CNN
-F 2 "matrix_control_main:SWITCH_PUSH" H 1350 3450 60  0001 C CNN
+F 2 "WDebug_DAPLink:SWITCH_PUSH" H 1350 3450 60  0001 C CNN
 F 3 "" H 1070 1975 60  0001 C CNN
 	1    1350 2450
 	0    1    1    0   
@@ -94,7 +94,7 @@ Connection ~ 1750 2150
 Wire Wire Line
 	1350 2150 1750 2150
 $Comp
-L power:GND #PWR0104
+L matrix_control_main-rescue:GND-power #PWR0104
 U 1 1 5E09B22F
 P 1350 2850
 F 0 "#PWR0104" H 1350 2600 50  0001 C CNN
@@ -159,7 +159,7 @@ $EndComp
 Wire Wire Line
 	1950 2850 2050 2850
 $Comp
-L power:GND #PWR0106
+L matrix_control_main-rescue:GND-power #PWR0106
 U 1 1 5E0A3C38
 P 3750 2950
 F 0 "#PWR0106" H 3750 2700 50  0001 C CNN
@@ -174,18 +174,18 @@ Wire Wire Line
 Wire Wire Line
 	3750 2850 3750 2950
 $Comp
-L Connector:Conn_01x05_Male J1
+L matrix_control_main-rescue:Conn_01x05_Male-Connector J1
 U 1 1 5E0A9DCD
 P 8650 3750
 F 0 "J1" H 8758 4131 50  0000 C CNN
 F 1 "Conn_01x05_Male" H 8758 4040 50  0000 C CNN
-F 2 "Connector_PinHeader_2.00mm:PinHeader_1x05_P2.00mm_Vertical" H 8650 3750 50  0001 C CNN
+F 2 "Connector_PinSocket_2.00mm:PinSocket_1x06_P2.00mm_Vertical" H 8650 3750 50  0001 C CNN
 F 3 "~" H 8650 3750 50  0001 C CNN
 	1    8650 3750
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR0107
+L matrix_control_main-rescue:+5V-power #PWR0107
 U 1 1 5E0AAD99
 P 9350 3550
 F 0 "#PWR0107" H 9350 3400 50  0001 C CNN
@@ -196,7 +196,7 @@ F 3 "" H 9350 3550 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR0108
+L matrix_control_main-rescue:GND-power #PWR0108
 U 1 1 5E0AC6A3
 P 9350 3650
 F 0 "#PWR0108" H 9350 3400 50  0001 C CNN
@@ -231,7 +231,7 @@ CLK
 Text Label 1900 2750 0    50   ~ 0
 DIN
 $Comp
-L power:GND #PWR0109
+L matrix_control_main-rescue:GND-power #PWR0109
 U 1 1 5E0B1BB6
 P 3950 3150
 F 0 "#PWR0109" H 3950 2900 50  0001 C CNN
@@ -266,13 +266,13 @@ U 1 1 5E0B6B0E
 P 4250 2900
 F 0 "SW2" H 4150 2800 60  0000 L CNN
 F 1 "Dowload" V 4303 3002 60  0001 L CNN
-F 2 "matrix_control_main:SWITCH_PUSH" H 4250 3900 60  0001 C CNN
+F 2 "WDebug_DAPLink:SWITCH_PUSH" H 4250 3900 60  0001 C CNN
 F 3 "" H 3970 2425 60  0001 C CNN
 	1    4250 2900
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR0110
+L matrix_control_main-rescue:GND-power #PWR0110
 U 1 1 5E0B7313
 P 4250 3300
 F 0 "#PWR0110" H 4250 3050 50  0001 C CNN
@@ -306,7 +306,7 @@ RXD
 Text Label 3850 2250 2    50   ~ 0
 TXD
 $Comp
-L power:+5V #PWR0111
+L matrix_control_main-rescue:+5V-power #PWR0111
 U 1 1 5DD2F874
 P 2700 4050
 F 0 "#PWR0111" H 2700 3900 50  0001 C CNN
@@ -317,7 +317,7 @@ F 3 "" H 2700 4050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0112
+L matrix_control_main-rescue:GND-power #PWR0112
 U 1 1 5DD30439
 P 2450 5850
 F 0 "#PWR0112" H 2450 5600 50  0001 C CNN
@@ -360,7 +360,7 @@ Wire Wire Line
 NoConn ~ 2400 4400
 NoConn ~ 2400 4500
 $Comp
-L power:GND #PWR0113
+L matrix_control_main-rescue:GND-power #PWR0113
 U 1 1 5DD3CB38
 P 4500 4700
 F 0 "#PWR0113" H 4500 4450 50  0001 C CNN
@@ -371,7 +371,7 @@ F 3 "" H 4500 4700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:+5V #PWR0114
+L matrix_control_main-rescue:+5V-power #PWR0114
 U 1 1 5DD3DC4D
 P 4450 5300
 F 0 "#PWR0114" H 4450 5150 50  0001 C CNN
@@ -477,7 +477,7 @@ F 3 "" H 6850 2350 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0115
+L matrix_control_main-rescue:GND-power #PWR0115
 U 1 1 5DD2F0ED
 P 6650 2800
 F 0 "#PWR0115" H 6650 2550 50  0001 C CNN
@@ -559,12 +559,12 @@ Connection ~ 6650 2650
 Wire Wire Line
 	6650 2650 6650 2800
 $Comp
-L Connector:Conn_01x04_Male J2
+L matrix_control_main-rescue:Conn_01x04_Male-Connector J2
 U 1 1 5DD3613D
 P 8550 2000
 F 0 "J2" H 8658 2281 50  0000 C CNN
 F 1 "Conn_01x04_Male" H 8658 2190 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 8550 2000 50  0001 C CNN
+F 2 "matrix_control_main:Pin_1x04_P2.54mm_DHT11" H 8550 2000 50  0001 C CNN
 F 3 "~" H 8550 2000 50  0001 C CNN
 	1    8550 2000
 	1    0    0    -1  
@@ -592,7 +592,7 @@ F 3 "" H 9100 1550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0118
+L matrix_control_main-rescue:GND-power #PWR0118
 U 1 1 5DD3AAA9
 P 9100 2300
 F 0 "#PWR0118" H 9100 2050 50  0001 C CNN
@@ -642,7 +642,7 @@ U 1 1 5DD2D14F
 P 1800 4800
 F 0 "P1" H 1907 5667 50  0000 C CNN
 F 1 "Connector_USB_C_Plug_USB2.0" H 1907 5576 50  0000 C CNN
-F 2 "matrix_control_main:USB-Type-C" H 1950 4800 50  0001 C CNN
+F 2 "WDebug_DAPLink:USB-Type-C" H 1950 4800 50  0001 C CNN
 F 3 "" H 1950 4800 50  0001 C CNN
 	1    1800 4800
 	1    0    0    -1  
@@ -736,7 +736,7 @@ F 3 "" H 4600 6300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR0122
+L matrix_control_main-rescue:+5V-power #PWR0122
 U 1 1 5DD6DC93
 P 2150 7200
 F 0 "#PWR0122" H 2150 7050 50  0001 C CNN
@@ -747,7 +747,7 @@ F 3 "" H 2150 7200 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:+5V #PWR0121
+L matrix_control_main-rescue:+5V-power #PWR0121
 U 1 1 5DD6CBBD
 P 1650 6450
 F 0 "#PWR0121" H 1650 6300 50  0001 C CNN
@@ -758,7 +758,7 @@ F 3 "" H 1650 6450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0120
+L matrix_control_main-rescue:GND-power #PWR0120
 U 1 1 5DD6C67B
 P 4000 7000
 F 0 "#PWR0120" H 4000 6750 50  0001 C CNN
@@ -769,7 +769,7 @@ F 3 "" H 4000 7000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0119
+L matrix_control_main-rescue:GND-power #PWR0119
 U 1 1 5DD6A118
 P 1650 7000
 F 0 "#PWR0119" H 1650 6750 50  0001 C CNN
@@ -933,7 +933,7 @@ F 3 "" H 7100 5400 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:+5V #PWR0124
+L matrix_control_main-rescue:+5V-power #PWR0124
 U 1 1 5DEB80A3
 P 7600 4350
 F 0 "#PWR0124" H 7600 4200 50  0001 C CNN
@@ -944,7 +944,7 @@ F 3 "" H 7600 4350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0125
+L matrix_control_main-rescue:GND-power #PWR0125
 U 1 1 5DEB8ABE
 P 7600 5850
 F 0 "#PWR0125" H 7600 5600 50  0001 C CNN
@@ -1014,7 +1014,7 @@ U 1 1 5DF09348
 P 4900 1600
 F 0 "D2" H 5450 1233 50  0000 C CNN
 F 1 "0603_绿灯" H 4949 1860 50  0001 L BNN
-F 2 "lc_lib:0603_LED_S1" H 4899 1200 50  0001 L BNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 4899 1200 50  0001 L BNN
 F 3 "http://www.szlcsc.com/product/details_73152.html" H 4899 1300 50  0001 L BNN
 F 4 "发光二极管" H 4900 1600 50  0001 C CNN "description"
 F 5 "供应商链接" H 4899 1100 50  0001 L BNN "ComponentLink1Description"

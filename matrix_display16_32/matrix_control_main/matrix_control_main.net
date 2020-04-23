@@ -1,7 +1,7 @@
 (export (version D)
   (design
-    (source F:\Workspace\Led1632\matrix_display16_32\matrix_control_main\matrix_control_main.sch)
-    (date "2019/12/25 11:02:40")
+    (source D:\git-manager\My_KiCADs\matrix_display16_32\matrix_control_main\matrix_control_main.sch)
+    (date "2020/4/23 9:23:08")
     (tool "Eeschema (5.1.4)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -29,7 +29,7 @@
       (tstamp 5E097BF3))
     (comp (ref SW1)
       (value RST)
-      (footprint matrix_control_main:SWITCH_PUSH)
+      (footprint WDebug_DAPLink:SWITCH_PUSH)
       (libsource (lib matrix_control_main-rescue) (part switch-LibCool-hack_clock-rescue) (description ""))
       (sheetpath (names /) (tstamps /))
       (tstamp 5E098EF2))
@@ -47,9 +47,9 @@
       (tstamp 5E09CFB3))
     (comp (ref J1)
       (value Conn_01x05_Male)
-      (footprint Connector_PinHeader_2.00mm:PinHeader_1x05_P2.00mm_Vertical)
+      (footprint Connector_PinSocket_2.00mm:PinSocket_1x05_P2.00mm_Vertical)
       (datasheet ~)
-      (libsource (lib Connector) (part Conn_01x05_Male) (description "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"))
+      (libsource (lib matrix_control_main-rescue) (part Conn_01x05_Male-Connector) (description ""))
       (sheetpath (names /) (tstamps /))
       (tstamp 5E0A9DCD))
     (comp (ref R5)
@@ -60,7 +60,7 @@
       (tstamp 5E0B479F))
     (comp (ref SW2)
       (value Dowload)
-      (footprint matrix_control_main:SWITCH_PUSH)
+      (footprint WDebug_DAPLink:SWITCH_PUSH)
       (libsource (lib matrix_control_main-rescue) (part switch-LibCool-hack_clock-rescue) (description ""))
       (sheetpath (names /) (tstamps /))
       (tstamp 5E0B6B0E))
@@ -114,9 +114,9 @@
       (tstamp 5DD27925))
     (comp (ref J2)
       (value Conn_01x04_Male)
-      (footprint Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical)
+      (footprint matrix_control_main:Pin_1x04_P2.54mm_DHT11)
       (datasheet ~)
-      (libsource (lib Connector) (part Conn_01x04_Male) (description "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"))
+      (libsource (lib matrix_control_main-rescue) (part Conn_01x04_Male-Connector) (description ""))
       (sheetpath (names /) (tstamps /))
       (tstamp 5DD3613D))
     (comp (ref R8)
@@ -127,7 +127,7 @@
       (tstamp 5DD386BE))
     (comp (ref P1)
       (value Connector_USB_C_Plug_USB2.0)
-      (footprint matrix_control_main:USB-Type-C)
+      (footprint WDebug_DAPLink:USB-Type-C)
       (libsource (lib matrix_control_main-rescue) (part Connector_USB_C_Plug_USB2.0-hack_clock-cache) (description ""))
       (sheetpath (names /) (tstamps /))
       (tstamp 5DD2D14F))
@@ -236,7 +236,7 @@
       (tstamp 5DF07CF6))
     (comp (ref D2)
       (value 0603_绿灯)
-      (footprint lc_lib:0603_LED_S1)
+      (footprint LED_SMD:LED_0603_1608Metric)
       (datasheet http://www.szlcsc.com/product/details_73152.html)
       (fields
         (field (name Comment) GRN)
@@ -267,33 +267,6 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 5E03F8A5)))
   (libparts
-    (libpart (lib Connector) (part Conn_01x04_Male)
-      (description "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)")
-      (docs ~)
-      (footprints
-        (fp Connector*:*_1x??_*))
-      (fields
-        (field (name Reference) J)
-        (field (name Value) Conn_01x04_Male))
-      (pins
-        (pin (num 1) (name Pin_1) (type passive))
-        (pin (num 2) (name Pin_2) (type passive))
-        (pin (num 3) (name Pin_3) (type passive))
-        (pin (num 4) (name Pin_4) (type passive))))
-    (libpart (lib Connector) (part Conn_01x05_Male)
-      (description "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)")
-      (docs ~)
-      (footprints
-        (fp Connector*:*_1x??_*))
-      (fields
-        (field (name Reference) J)
-        (field (name Value) Conn_01x05_Male))
-      (pins
-        (pin (num 1) (name Pin_1) (type passive))
-        (pin (num 2) (name Pin_2) (type passive))
-        (pin (num 3) (name Pin_3) (type passive))
-        (pin (num 4) (name Pin_4) (type passive))
-        (pin (num 5) (name Pin_5) (type passive))))
     (libpart (lib matrix_control_main-rescue) (part 0603_绿灯-LC_led)
       (fields
         (field (name Reference) D)
@@ -361,6 +334,29 @@
         (pin (num 8) (name TXD) (type BiDi))
         (pin (num 9) (name RXD) (type BiDi))
         (pin (num 10) (name V3) (type BiDi))))
+    (libpart (lib matrix_control_main-rescue) (part Conn_01x04_Male-Connector)
+      (footprints
+        (fp Connector*:*_1x??_*))
+      (fields
+        (field (name Reference) J)
+        (field (name Value) Conn_01x04_Male-Connector))
+      (pins
+        (pin (num 1) (name Pin_1) (type passive))
+        (pin (num 2) (name Pin_2) (type passive))
+        (pin (num 3) (name Pin_3) (type passive))
+        (pin (num 4) (name Pin_4) (type passive))))
+    (libpart (lib matrix_control_main-rescue) (part Conn_01x05_Male-Connector)
+      (footprints
+        (fp Connector*:*_1x??_*))
+      (fields
+        (field (name Reference) J)
+        (field (name Value) Conn_01x05_Male-Connector))
+      (pins
+        (pin (num 1) (name Pin_1) (type passive))
+        (pin (num 2) (name Pin_2) (type passive))
+        (pin (num 3) (name Pin_3) (type passive))
+        (pin (num 4) (name Pin_4) (type passive))
+        (pin (num 5) (name Pin_5) (type passive))))
     (libpart (lib matrix_control_main-rescue) (part Connector_USB_C_Plug_USB2.0-hack_clock-cache)
       (footprints
         (fp USB*C*Plug*))
@@ -499,10 +495,8 @@
         (pin (num 1) (name 1) (type passive))
         (pin (num 2) (name 2) (type passive)))))
   (libraries
-    (library (logical Connector)
-      (uri "E:\\Program Files (x86)\\KiCad\\share\\kicad\\library/Connector.lib"))
     (library (logical matrix_control_main-rescue)
-      (uri F:\Workspace\Led1632\matrix_display16_32\matrix_control_main/matrix_control_main-rescue.lib)))
+      (uri D:\git-manager\My_KiCADs\matrix_display16_32\matrix_control_main/matrix_control_main-rescue.lib)))
   (nets
     (net (code 1) (name +5V)
       (node (ref P1) (pin A9))

@@ -1,3 +1,3 @@
 (fp_lib_table
-  (lib (name matrix_control_main)(type KiCad)(uri F:/Workspace/Led1632/matrix_display16_32/matrix_control_main.pretty)(options "")(descr ""))
+  (lib (name matrix_control_main)(type KiCad)(uri D:/git-manager/My_KiCADs/matrix_display16_32/matrix_control_main.pretty)(options "")(descr ""))
 )

@@ -1,4 +1,4 @@
-(module ESP-12E (layer F.Cu) (tedit 5DAECB80)
+(module ESP-12E (layer F.Cu) (tedit 5EA01F5A)
   (descr "Wi-Fi Module, http://wiki.ai-thinker.com/_media/esp8266/docs/aithinker_esp_12f_datasheet_en.pdf")
   (tags "Wi-Fi Module")
   (attr smd)
@@ -69,7 +69,7 @@
   (pad 20 smd rect (at 7.6 0.5) (size 2.5 1) (layers F.Cu F.Paste F.Mask))
   (pad 21 smd rect (at 7.6 -1.5) (size 2.5 1) (layers F.Cu F.Paste F.Mask))
   (pad 22 smd rect (at 7.6 -3.5) (size 2.5 1) (layers F.Cu F.Paste F.Mask))
-  (model "D:/software/KICAD/NewLibcool.pretty-master/NewLibCool.3dshapes/esp12/User Library-EPS8266 ESP-12E/User Library-EPS8266 ESP-12E.STEP"
+  (model ":WeissLib:EPS8266 ESP-12E-1.STEP"
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 -90))
