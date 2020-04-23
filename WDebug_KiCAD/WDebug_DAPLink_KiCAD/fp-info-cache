@@ -1,4 +1,4 @@
-17036046912978630
+17062864301926328
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -72905,6 +72905,27 @@ WDebug_DAPLink
 20
 20
 WDebug_DAPLink
+O_2.5mm
+
+
+0
+9
+1
+WDebug_DAPLink
+SWITCH_PUSH
+
+
+0
+6
+3
+WDebug_DAPLink
+USB-Type-C
+
+
+0
+16
+7
+WDebug_DAPLink
 hanpan
 
 
@@ -76159,3 +76180,101 @@ Zigbee_Module_MRF24J40MD
 0
 12
 12
+matrix_control_main
+0603_C
+Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)
+capacitor 0603
+0
+2
+2
+matrix_control_main
+0603_R
+Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)
+capacitor 0603
+0
+2
+2
+matrix_control_main
+CR1220-SMD
+
+
+0
+4
+3
+matrix_control_main
+ESP-12E
+Wi-Fi Module, http://wiki.ai-thinker.com/_media/esp8266/docs/aithinker_esp_12f_datasheet_en.pdf
+Wi-Fi Module
+0
+22
+22
+matrix_control_main
+O_2.5mm
+
+
+0
+9
+1
+matrix_control_main
+SOP-8
+8-Lead Plastic Small Outline (SN) - Narrow, 3.90 mm Body [SOIC] (see Microchip Packaging Specification 00000049BS.pdf)
+SOIC 1.27
+0
+8
+8
+matrix_control_main
+SOT-23
+SOT-23, Standard
+SOT-23
+0
+3
+3
+matrix_control_main
+SOT23-5
+5-pin SOT23 package
+SOT-23-5
+0
+5
+5
+matrix_control_main
+SWITCH_PUSH
+
+
+0
+6
+3
+matrix_control_main
+TSSOP-10_3x3mm_P0.5mm
+TSSOP10: plastic thin shrink small outline package; 10 leads; body width 3 mm; (see NXP SSOP-TSSOP-VSO-REFLOW.pdf and sot552-1_po.pdf)
+SSOP 0.5
+0
+10
+10
+matrix_control_main
+Tan-6032-20_AVX-F_NEW
+Tantalum Capacitor SMD AVX-F (6032-20 Metric), IPC_7351 nominal, (Body size from: http://www.kemet.com/Lists/ProductCatalog/Attachments/253/KEM_TC101_STD.pdf), generated with kicad-footprint-generator
+capacitor tantalum
+0
+2
+2
+matrix_control_main
+TantalC_SizeT_3528_100uf
+TantalC_SizeT_EIA-3528
+
+0
+2
+2
+matrix_control_main
+USB-Type-C
+
+
+0
+16
+7
+matrix_control_main
+hanpan
+
+
+0
+1
+1
