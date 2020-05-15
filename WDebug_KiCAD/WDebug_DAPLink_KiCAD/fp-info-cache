@@ -1,4 +1,4 @@
-17062864301926328
+17070834080406458
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -76216,6 +76216,13 @@ O_2.5mm
 9
 1
 matrix_control_main
+Pin_1x04_P2.54mm_DHT11
+Through hole straight pin header, 1x04, 2.54mm pitch, single row
+Through hole pin header THT 1x04 2.54mm single row
+0
+4
+4
+matrix_control_main
 SOP-8
 8-Lead Plastic Small Outline (SN) - Narrow, 3.90 mm Body [SOIC] (see Microchip Packaging Specification 00000049BS.pdf)
 SOIC 1.27
@@ -76278,3 +76285,31 @@ hanpan
 0
 1
 1
+matrix_display16_32
+0603_C
+Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)
+capacitor 0603
+0
+2
+2
+matrix_display16_32
+0603_R
+Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)
+capacitor 0603
+0
+2
+2
+matrix_display16_32
+Matrix_LED
+8-lead dip package, row spacing 7.62 mm (300 mils), longer pads
+dil dip 2.54 300
+0
+16
+16
+matrix_display16_32
+SOIC-24W_7.5x15.4mm_P1.27mm
+SOIC, 24 Pin (JEDEC MS-013AD, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_wide-rw/RW_24.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOIC SO
+0
+24
+24

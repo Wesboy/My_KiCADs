@@ -167,75 +167,35 @@ F 3 "~" H 4850 1950 50  0001 C CNN
 	1    4850 1950
 	-1   0    0    1   
 $EndComp
-$Comp
-L WDebug_DAPLink_KiCAD-rescue:C-Device C2
-U 1 1 5E0EA74B
-P 1800 4550
-F 0 "C2" H 1800 4650 50  0000 L CNN
-F 1 "100nF" H 1800 4450 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 1838 4400 50  0001 C CNN
-F 3 "~" H 1800 4550 50  0001 C CNN
-	1    1800 4550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2900 4750 2450 4750
-Connection ~ 2900 4750
-Wire Wire Line
-	2900 4700 2900 4750
 Wire Wire Line
 	2900 4300 3200 4300
 Connection ~ 2900 4300
 Wire Wire Line
 	2900 4400 2900 4300
 Wire Wire Line
-	3200 4750 2900 4750
-Connection ~ 3200 4750
-Wire Wire Line
-	3200 4700 3200 4750
-Wire Wire Line
 	3200 4300 3500 4300
 Connection ~ 3200 4300
 Wire Wire Line
 	3200 4400 3200 4300
-Wire Wire Line
-	3500 4750 3200 4750
-Wire Wire Line
-	3500 4700 3500 4750
 Connection ~ 3500 4300
 Wire Wire Line
 	3500 4300 3500 4400
 Wire Wire Line
-	1800 4300 2150 4300
-Connection ~ 1800 4300
+	1300 4400 1300 4300
 Wire Wire Line
-	1800 4400 1800 4300
+	950  4900 1300 4900
+Connection ~ 950  4300
 Wire Wire Line
-	1800 4750 2450 4750
-Connection ~ 1800 4750
-Wire Wire Line
-	1800 4700 1800 4750
-Wire Wire Line
-	2450 4750 2450 4800
-Connection ~ 2450 4750
-Wire Wire Line
-	1450 4750 1800 4750
-Wire Wire Line
-	1450 4700 1450 4750
-Connection ~ 1450 4300
-Wire Wire Line
-	1450 4300 1450 4400
-Wire Wire Line
-	2450 4600 2450 4750
+	950  4300 950  4400
 $Comp
 L WDebug_DAPLink_KiCAD-rescue:GND-power #PWR0117
 U 1 1 5E279A9C
-P 2450 4800
-F 0 "#PWR0117" H 2450 4550 50  0001 C CNN
-F 1 "GND" H 2455 4627 50  0000 C CNN
-F 2 "" H 2450 4800 50  0001 C CNN
-F 3 "" H 2450 4800 50  0001 C CNN
-	1    2450 4800
+P 2150 5100
+F 0 "#PWR0117" H 2150 4850 50  0001 C CNN
+F 1 "GND" H 2155 4927 50  0000 C CNN
+F 2 "" H 2150 5100 50  0001 C CNN
+F 3 "" H 2150 5100 50  0001 C CNN
+	1    2150 5100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -243,18 +203,18 @@ Wire Wire Line
 Wire Wire Line
 	2750 4300 2900 4300
 Wire Wire Line
-	1450 4300 1800 4300
+	950  4300 1300 4300
 Wire Wire Line
-	1450 4100 1450 4300
+	950  4100 950  4300
 $Comp
 L WDebug_DAPLink_KiCAD-rescue:VBUS-power #PWR0116
 U 1 1 5E27AB27
-P 1450 4100
-F 0 "#PWR0116" H 1450 3950 50  0001 C CNN
-F 1 "VBUS" H 1465 4273 50  0000 C CNN
-F 2 "" H 1450 4100 50  0001 C CNN
-F 3 "" H 1450 4100 50  0001 C CNN
-	1    1450 4100
+P 950 4100
+F 0 "#PWR0116" H 950 3950 50  0001 C CNN
+F 1 "VBUS" H 965 4273 50  0000 C CNN
+F 2 "" H 950 4100 50  0001 C CNN
+F 3 "" H 950 4100 50  0001 C CNN
+	1    950  4100
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -266,17 +226,6 @@ F 1 "+3.3V" H 3515 4273 50  0000 C CNN
 F 2 "" H 3500 4100 50  0001 C CNN
 F 3 "" H 3500 4100 50  0001 C CNN
 	1    3500 4100
-	1    0    0    -1  
-$EndComp
-$Comp
-L WDebug_DAPLink_KiCAD-rescue:AZ1117-3.3-Regulator_Linear U1
-U 1 1 5E278830
-P 2450 4300
-F 0 "U1" H 2450 4542 50  0000 C CNN
-F 1 "AZ1117-3.3" H 2450 4451 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-223" H 2450 4550 50  0001 C CIN
-F 3 "https://www.diodes.com/assets/Datasheets/AZ1117.pdf" H 2450 4300 50  0001 C CNN
-	1    2450 4300
 	1    0    0    -1  
 $EndComp
 Text Label 10000 3850 2    50   ~ 0
@@ -593,39 +542,6 @@ F 3 "" H 3300 1650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L WDebug_DAPLink_KiCAD-rescue:C-Device C6
-U 1 1 5E0EB136
-P 3500 4550
-F 0 "C6" H 3500 4650 50  0000 L CNN
-F 1 "10uF" H 3500 4450 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 3538 4400 50  0001 C CNN
-F 3 "~" H 3500 4550 50  0001 C CNN
-	1    3500 4550
-	1    0    0    -1  
-$EndComp
-$Comp
-L WDebug_DAPLink_KiCAD-rescue:C-Device C5
-U 1 1 5E0EAE03
-P 3200 4550
-F 0 "C5" H 3200 4650 50  0000 L CNN
-F 1 "100nF" H 3200 4450 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 3238 4400 50  0001 C CNN
-F 3 "~" H 3200 4550 50  0001 C CNN
-	1    3200 4550
-	1    0    0    -1  
-$EndComp
-$Comp
-L WDebug_DAPLink_KiCAD-rescue:C-Device C3
-U 1 1 5E0EAA88
-P 2900 4550
-F 0 "C3" H 2900 4650 50  0000 L CNN
-F 1 "100nF" H 2900 4450 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 2938 4400 50  0001 C CNN
-F 3 "~" H 2900 4550 50  0001 C CNN
-	1    2900 4550
-	1    0    0    -1  
-$EndComp
-$Comp
 L WDebug_DAPLink_KiCAD-rescue:C-Device C10
 U 1 1 5E0EA4DE
 P 7600 1650
@@ -670,17 +586,6 @@ F 3 "~" H 7550 3250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L WDebug_DAPLink_KiCAD-rescue:C-Device C1
-U 1 1 5E0E976F
-P 1450 4550
-F 0 "C1" H 1450 4650 50  0000 L CNN
-F 1 "10uF" H 1450 4450 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 1488 4400 50  0001 C CNN
-F 3 "~" H 1450 4550 50  0001 C CNN
-	1    1450 4550
-	1    0    0    -1  
-$EndComp
-$Comp
 L WDebug_DAPLink_KiCAD-rescue:C-Device C8
 U 1 1 5E0E8290
 P 6900 3250
@@ -697,7 +602,7 @@ U 1 1 5E0E73EF
 P 7250 2900
 F 0 "Y1" H 7350 3100 50  0000 L CNN
 F 1 "8MHz" H 7300 2700 50  0000 L CNN
-F 2 "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm" H 7250 2900 50  0001 C CNN
+F 2 "Crystal:Crystal_SMD_5032-4Pin_5.0x3.2mm" H 7250 2900 50  0001 C CNN
 F 3 "~" H 7250 2900 50  0001 C CNN
 	1    7250 2900
 	1    0    0    -1  
@@ -944,8 +849,6 @@ Wire Wire Line
 Wire Wire Line
 	5950 3800 5350 3800
 Wire Wire Line
-	5950 4000 4900 4000
-Wire Wire Line
 	5950 4100 5750 4100
 Wire Wire Line
 	5750 4100 5750 4400
@@ -969,17 +872,6 @@ F 2 "" H 5750 4700 50  0001 C CNN
 F 3 "" H 5750 4700 50  0001 C CNN
 	1    5750 4700
 	1    0    0    -1  
-$EndComp
-$Comp
-L WDebug_DAPLink_KiCAD-rescue:+3.3V-power #PWR0104
-U 1 1 5E9EB13C
-P 4900 4000
-F 0 "#PWR0104" H 4900 3850 50  0001 C CNN
-F 1 "+3.3V" V 4915 4128 50  0000 L CNN
-F 2 "" H 4900 4000 50  0001 C CNN
-F 3 "" H 4900 4000 50  0001 C CNN
-	1    4900 4000
-	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	3000 5600 3400 5600
@@ -1010,9 +902,9 @@ RX2
 Text Label 5350 3700 0    50   Italic 0
 TX2
 Text Label 5350 3400 0    50   Italic 0
-T_SWCLK
-Text Label 5350 3500 0    50   Italic 0
 T_SWDIO
+Text Label 5350 3500 0    50   Italic 0
+T_SWCLK
 Text Label 5350 3800 0    50   Italic 0
 TG_RST
 NoConn ~ 5950 2800
@@ -1256,18 +1148,161 @@ Wire Wire Line
 Text Label 5350 6450 0    50   ~ 0
 T_SWO
 $Comp
-L WDebug_DAPLink_KiCAD-rescue:+3.3V-power #PWR0124
-U 1 1 5EA83DB7
-P 4950 6000
-F 0 "#PWR0124" H 4950 5850 50  0001 C CNN
-F 1 "+3.3V" H 4965 6173 50  0000 C CNN
-F 2 "" H 4950 6000 50  0001 C CNN
-F 3 "" H 4950 6000 50  0001 C CNN
-	1    4950 6000
+L matrix_control_main-rescue:XC6228D332VR-G-matrix_display-rescue U1
+U 1 1 5EC428E3
+P 2350 4400
+F 0 "U1" H 2350 4765 50  0000 C CNN
+F 1 "XC6228D332VR-G-matrix_display-rescue" H 2350 4674 50  0000 C CNN
+F 2 "matrix_control_main:SOT23-5" H 2350 4650 50  0001 C CNN
+F 3 "" H 2350 4650 50  0001 C CNN
+	1    2350 4400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4950 6000 4950 6550
+	1300 4700 1300 4900
+$Comp
+L WDebug_DAPLink_KiCAD-rescue:C-Device C1
+U 1 1 5E0E976F
+P 950 4550
+F 0 "C1" H 950 4650 50  0000 L CNN
+F 1 "10uF" H 950 4450 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 988 4400 50  0001 C CNN
+F 3 "~" H 950 4550 50  0001 C CNN
+	1    950  4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L WDebug_DAPLink_KiCAD-rescue:C-Device C3
+U 1 1 5E0EAA88
+P 2900 4550
+F 0 "C3" H 2900 4650 50  0000 L CNN
+F 1 "100nF" H 2900 4450 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2938 4400 50  0001 C CNN
+F 3 "~" H 2900 4550 50  0001 C CNN
+	1    2900 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L WDebug_DAPLink_KiCAD-rescue:C-Device C5
+U 1 1 5E0EAE03
+P 3200 4550
+F 0 "C5" H 3200 4650 50  0000 L CNN
+F 1 "100nF" H 3200 4450 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3238 4400 50  0001 C CNN
+F 3 "~" H 3200 4550 50  0001 C CNN
+	1    3200 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L WDebug_DAPLink_KiCAD-rescue:C-Device C6
+U 1 1 5E0EB136
+P 3500 4550
+F 0 "C6" H 3500 4650 50  0000 L CNN
+F 1 "10uF" H 3500 4450 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3538 4400 50  0001 C CNN
+F 3 "~" H 3500 4550 50  0001 C CNN
+	1    3500 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L WDebug_DAPLink_KiCAD-rescue:C-Device C2
+U 1 1 5E0EA74B
+P 1300 4550
+F 0 "C2" H 1300 4650 50  0000 L CNN
+F 1 "100nF" H 1300 4450 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1338 4400 50  0001 C CNN
+F 3 "~" H 1300 4550 50  0001 C CNN
+	1    1300 4550
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	4950 6550 5950 6550
+	1950 4300 1650 4300
+Connection ~ 1300 4300
+Wire Wire Line
+	1950 4400 1550 4400
+Wire Wire Line
+	1550 4400 1550 4900
+Wire Wire Line
+	1550 4900 1300 4900
+Connection ~ 1300 4900
+Wire Wire Line
+	950  4700 950  4900
+Wire Wire Line
+	1550 4900 2150 4900
+Wire Wire Line
+	2150 4900 2150 5100
+Connection ~ 1550 4900
+Wire Wire Line
+	3500 4900 3200 4900
+Wire Wire Line
+	3500 4700 3500 4900
+Connection ~ 2150 4900
+Wire Wire Line
+	2900 4700 2900 4900
+Connection ~ 2900 4900
+Wire Wire Line
+	2900 4900 2150 4900
+Wire Wire Line
+	3200 4700 3200 4900
+Connection ~ 3200 4900
+Wire Wire Line
+	3200 4900 2900 4900
+$Comp
+L WDebug_DAPLink_KiCAD-rescue:R_Small_US-Device R9
+U 1 1 5ED189D4
+P 1800 4500
+F 0 "R9" V 1750 4400 50  0000 C CNN
+F 1 "10K" V 1750 4650 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 1800 4500 50  0001 C CNN
+F 3 "~" H 1800 4500 50  0001 C CNN
+	1    1800 4500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1950 4500 1900 4500
+Wire Wire Line
+	1700 4500 1650 4500
+Wire Wire Line
+	1650 4500 1650 4300
+Connection ~ 1650 4300
+Wire Wire Line
+	1650 4300 1300 4300
+NoConn ~ 8300 4150
+NoConn ~ 2750 4500
+$Comp
+L WDebug_DAPLink_KiCAD-rescue:+3.3V-power #PWR0104
+U 1 1 5E9EB13C
+P 5150 5050
+F 0 "#PWR0104" H 5150 4900 50  0001 C CNN
+F 1 "+3.3V" V 5165 5178 50  0000 L CNN
+F 2 "" H 5150 5050 50  0001 C CNN
+F 3 "" H 5150 5050 50  0001 C CNN
+	1    5150 5050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x02_Female J6
+U 1 1 5EBECC61
+P 5450 5050
+F 0 "J6" H 5342 4725 50  0000 C CNN
+F 1 "3.3V_Conn" H 5342 4816 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5450 5050 50  0001 C CNN
+F 3 "~" H 5450 5050 50  0001 C CNN
+	1    5450 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 5050 5150 5050
+Wire Wire Line
+	5250 5150 4800 5150
+Text Label 4800 5150 0    50   ~ 0
+3_3V_Conn
+Wire Wire Line
+	5950 4000 5350 4000
+Wire Wire Line
+	5950 6550 5350 6550
+Text Label 5350 4000 0    50   ~ 0
+3_3V_Conn
+Text Label 5350 6550 0    50   ~ 0
+3_3V_Conn
 $EndSCHEMATC
