@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:WDebug_KiCAD-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -36,7 +37,7 @@ F 3 "" H 9500 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:USB_C_Receptacle_USB2.0 J1
+L WDebug_KiCAD-rescue:USB_C_Receptacle_USB2.0-Connector J1
 U 1 1 5E0AE0C3
 P 1700 2350
 F 0 "J1" H 1807 3217 50  0000 C CNN
@@ -47,7 +48,7 @@ F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 1850 23
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x18_Female J4
+L WDebug_KiCAD-rescue:Conn_01x18_Female-Connector J4
 U 1 1 5E0B8430
 P 10900 5100
 F 0 "J4" H 10928 5076 50  0000 L CNN
@@ -58,7 +59,7 @@ F 3 "~" H 10900 5100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x20_Female J3
+L WDebug_KiCAD-rescue:Conn_01x20_Female-Connector J3
 U 1 1 5E0BA143
 P 9200 5000
 F 0 "J3" H 9228 4976 50  0000 L CNN
@@ -69,7 +70,7 @@ F 3 "~" H 9200 5000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR0101
+L WDebug_KiCAD-rescue:+5V-power #PWR0101
 U 1 1 5E0CC135
 P 2600 1450
 F 0 "#PWR0101" H 2600 1300 50  0001 C CNN
@@ -102,7 +103,7 @@ Wire Wire Line
 Wire Wire Line
 	2600 1750 2600 1450
 $Comp
-L power:+3.3V #PWR0102
+L WDebug_KiCAD-rescue:+3.3V-power #PWR0102
 U 1 1 5E0CE0C0
 P 3350 1450
 F 0 "#PWR0102" H 3350 1300 50  0001 C CNN
@@ -189,7 +190,7 @@ USB2+
 Text Label 8600 3400 0    50   ~ 0
 USB2-
 $Comp
-L Device:C C3
+L WDebug_KiCAD-rescue:C-Device C3
 U 1 1 5E0DBFC6
 P 2800 3750
 F 0 "C3" V 2850 3850 50  0000 L CNN
@@ -200,7 +201,7 @@ F 3 "~" H 2800 3750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0103
+L WDebug_KiCAD-rescue:GND-power #PWR0103
 U 1 1 5E0DFD47
 P 2450 4200
 F 0 "#PWR0103" H 2450 3950 50  0001 C CNN
@@ -218,7 +219,7 @@ Wire Wire Line
 	2650 4050 2450 4050
 Connection ~ 2450 4050
 $Comp
-L Device:R_Small_US R6
+L WDebug_KiCAD-rescue:R_Small_US-Device R6
 U 1 1 5E0EBC10
 P 3100 3300
 F 0 "R6" V 3150 3400 50  0000 L CNN
@@ -233,7 +234,7 @@ CLK_OUT
 Text Label 3100 3500 0    50   ~ 0
 CLK_IN
 $Comp
-L Device:C C1
+L WDebug_KiCAD-rescue:C-Device C1
 U 1 1 5E0F24D1
 P 1150 5700
 F 0 "C1" H 1265 5746 50  0000 L CNN
@@ -244,7 +245,7 @@ F 3 "~" H 1150 5700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C2
+L WDebug_KiCAD-rescue:C-Device C2
 U 1 1 5E0F32FE
 P 1900 5700
 F 0 "C2" H 2015 5746 50  0000 L CNN
@@ -255,7 +256,7 @@ F 3 "~" H 1900 5700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Crystal_GND24 Y1
+L WDebug_KiCAD-rescue:Crystal_GND24-Device Y1
 U 1 1 5E0F413E
 P 1550 5350
 F 0 "Y1" H 1744 5396 50  0000 L CNN
@@ -270,7 +271,7 @@ Wire Wire Line
 Wire Wire Line
 	1450 4750 1150 4750
 $Comp
-L Device:R_Small_US R1
+L WDebug_KiCAD-rescue:R_Small_US-Device R1
 U 1 1 5E0F1941
 P 1550 4750
 F 0 "R1" V 1345 4750 50  0000 C CNN
@@ -299,7 +300,7 @@ Wire Wire Line
 	1900 5350 1900 4750
 Connection ~ 1900 4750
 $Comp
-L power:GND #PWR0104
+L WDebug_KiCAD-rescue:GND-power #PWR0104
 U 1 1 5E10306E
 P 1550 6050
 F 0 "#PWR0104" H 1550 5800 50  0001 C CNN
@@ -337,7 +338,7 @@ Wire Wire Line
 Wire Wire Line
 	3500 3500 3100 3500
 $Comp
-L Device:C C4
+L WDebug_KiCAD-rescue:C-Device C4
 U 1 1 5E0DCDF4
 P 2800 4050
 F 0 "C4" V 2850 4150 50  0000 L CNN
@@ -373,7 +374,7 @@ Wire Wire Line
 Text Label 2650 3000 0    50   ~ 0
 RST
 $Comp
-L Device:R_Small_US R2
+L WDebug_KiCAD-rescue:R_Small_US-Device R2
 U 1 1 5E14A105
 P 2150 6600
 F 0 "R2" H 2200 6700 50  0000 L CNN
@@ -384,7 +385,7 @@ F 3 "~" H 2150 6600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small_US R4
+L WDebug_KiCAD-rescue:R_Small_US-Device R4
 U 1 1 5E14BF2D
 P 2550 6600
 F 0 "R4" H 2600 6700 50  0000 L CNN
@@ -395,7 +396,7 @@ F 3 "~" H 2550 6600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small_US R3
+L WDebug_KiCAD-rescue:R_Small_US-Device R3
 U 1 1 5E14C63E
 P 2350 6600
 F 0 "R3" H 2400 6700 50  0000 L CNN
@@ -406,7 +407,7 @@ F 3 "~" H 2350 6600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small_US R5
+L WDebug_KiCAD-rescue:R_Small_US-Device R5
 U 1 1 5E14CB63
 P 2750 6600
 F 0 "R5" H 2800 6700 50  0000 L CNN
@@ -433,7 +434,7 @@ SEL1
 Text Label 3000 4200 0    50   ~ 0
 SEL0
 $Comp
-L Device:R_Small_US R8
+L WDebug_KiCAD-rescue:R_Small_US-Device R8
 U 1 1 5E15B252
 P 3450 7150
 F 0 "R8" H 3518 7196 50  0000 L CNN
@@ -444,7 +445,7 @@ F 3 "~" H 3450 7150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small_US R10
+L WDebug_KiCAD-rescue:R_Small_US-Device R10
 U 1 1 5E15B258
 P 3850 7150
 F 0 "R10" H 3918 7196 50  0000 L CNN
@@ -455,7 +456,7 @@ F 3 "~" H 3850 7150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small_US R7
+L WDebug_KiCAD-rescue:R_Small_US-Device R7
 U 1 1 5E15B25E
 P 3450 6800
 F 0 "R7" H 3518 6846 50  0000 L CNN
@@ -484,7 +485,7 @@ Connection ~ 2550 6250
 Wire Wire Line
 	2550 6250 2550 6050
 $Comp
-L Device:LED D1
+L WDebug_KiCAD-rescue:LED-Device D1
 U 1 1 5E16637C
 P 2350 7050
 F 0 "D1" V 2389 6933 50  0000 R CNN
@@ -495,7 +496,7 @@ F 3 "~" H 2350 7050 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:LED D2
+L WDebug_KiCAD-rescue:LED-Device D2
 U 1 1 5E16713A
 P 2750 7050
 F 0 "D2" V 2789 6933 50  0000 R CNN
@@ -510,7 +511,7 @@ Wire Wire Line
 Wire Wire Line
 	2350 6700 2350 6900
 $Comp
-L power:GND #PWR0105
+L WDebug_KiCAD-rescue:GND-power #PWR0105
 U 1 1 5E16C079
 P 2450 7500
 F 0 "#PWR0105" H 2450 7250 50  0001 C CNN
@@ -537,7 +538,7 @@ Connection ~ 2350 7400
 Wire Wire Line
 	2350 7400 2450 7400
 $Comp
-L power:+3.3V #PWR0106
+L WDebug_KiCAD-rescue:+3.3V-power #PWR0106
 U 1 1 5E179951
 P 3850 6550
 F 0 "#PWR0106" H 3850 6400 50  0001 C CNN
@@ -548,7 +549,7 @@ F 3 "" H 3850 6550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0107
+L WDebug_KiCAD-rescue:GND-power #PWR0107
 U 1 1 5E1866FF
 P 3650 7550
 F 0 "#PWR0107" H 3650 7300 50  0001 C CNN
@@ -559,7 +560,7 @@ F 3 "" H 3650 7550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR0108
+L WDebug_KiCAD-rescue:+3.3V-power #PWR0108
 U 1 1 5E178F21
 P 3450 6550
 F 0 "#PWR0108" H 3450 6400 50  0001 C CNN
@@ -574,7 +575,7 @@ Wire Wire Line
 Wire Wire Line
 	3850 6550 3850 6700
 $Comp
-L Device:R_Small_US R9
+L WDebug_KiCAD-rescue:R_Small_US-Device R9
 U 1 1 5E15B264
 P 3850 6800
 F 0 "R9" H 3918 6846 50  0000 L CNN
@@ -618,7 +619,7 @@ SEL0
 Text Label 4100 6950 2    50   ~ 0
 SEL1
 $Comp
-L Device:R_Small_US R11
+L WDebug_KiCAD-rescue:R_Small_US-Device R11
 U 1 1 5E1AC63B
 P 4900 6650
 F 0 "R11" H 4968 6696 50  0000 L CNN
@@ -629,7 +630,7 @@ F 3 "~" H 4900 6650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C5
+L WDebug_KiCAD-rescue:C-Device C5
 U 1 1 5E1AD359
 P 4900 7200
 F 0 "C5" H 5015 7246 50  0000 L CNN
@@ -640,7 +641,7 @@ F 3 "~" H 4900 7200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR0109
+L WDebug_KiCAD-rescue:+3.3V-power #PWR0109
 U 1 1 5E1AD9A5
 P 4900 6300
 F 0 "#PWR0109" H 4900 6150 50  0001 C CNN
@@ -651,7 +652,7 @@ F 3 "" H 4900 6300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0110
+L WDebug_KiCAD-rescue:GND-power #PWR0110
 U 1 1 5E1AEA24
 P 4900 7550
 F 0 "#PWR0110" H 4900 7300 50  0001 C CNN
@@ -675,7 +676,7 @@ Wire Wire Line
 Text Label 4550 6900 0    50   ~ 0
 RST
 $Comp
-L power:+3.3V #PWR0111
+L WDebug_KiCAD-rescue:+3.3V-power #PWR0111
 U 1 1 5E1C7E33
 P 6700 2300
 F 0 "#PWR0111" H 6700 2150 50  0001 C CNN
@@ -705,7 +706,7 @@ Wire Wire Line
 Wire Wire Line
 	2550 7400 2750 7400
 $Comp
-L power:GND #PWR0112
+L WDebug_KiCAD-rescue:GND-power #PWR0112
 U 1 1 5E1F2A80
 P 8650 2600
 F 0 "#PWR0112" H 8650 2350 50  0001 C CNN
@@ -716,7 +717,7 @@ F 3 "" H 8650 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0113
+L WDebug_KiCAD-rescue:GND-power #PWR0113
 U 1 1 5E1F2F17
 P 8650 4000
 F 0 "#PWR0113" H 8650 3750 50  0001 C CNN
@@ -727,7 +728,7 @@ F 3 "" H 8650 4000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR0114
+L WDebug_KiCAD-rescue:+5V-power #PWR0114
 U 1 1 5E1FC2F4
 P 10650 3200
 F 0 "#PWR0114" H 10650 3050 50  0001 C CNN
@@ -738,7 +739,7 @@ F 3 "" H 10650 3200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR0115
+L WDebug_KiCAD-rescue:+5V-power #PWR0115
 U 1 1 5E1FCCCB
 P 10650 1700
 F 0 "#PWR0115" H 10650 1550 50  0001 C CNN
@@ -771,7 +772,7 @@ NoConn ~ 9000 3700
 NoConn ~ 10000 3700
 NoConn ~ 9950 2300
 $Comp
-L Device:C C7
+L WDebug_KiCAD-rescue:C-Device C7
 U 1 1 5E22FC30
 P 10250 3100
 F 0 "C7" H 10365 3146 50  0000 L CNN
@@ -782,7 +783,7 @@ F 3 "~" H 10250 3100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C6
+L WDebug_KiCAD-rescue:C-Device C6
 U 1 1 5E23015B
 P 10250 1650
 F 0 "C6" H 10365 1696 50  0000 L CNN
@@ -809,7 +810,7 @@ RX2
 Text Label 10500 3500 2    50   ~ 0
 TX2
 $Comp
-L power:GND #PWR0116
+L WDebug_KiCAD-rescue:GND-power #PWR0116
 U 1 1 5E245DCA
 P 10250 1300
 F 0 "#PWR0116" H 10250 1050 50  0001 C CNN
@@ -820,7 +821,7 @@ F 3 "" H 10250 1300 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR0117
+L WDebug_KiCAD-rescue:GND-power #PWR0117
 U 1 1 5E246851
 P 10250 2800
 F 0 "#PWR0117" H 10250 2550 50  0001 C CNN
@@ -837,7 +838,7 @@ Wire Wire Line
 NoConn ~ 2300 1950
 NoConn ~ 2300 2050
 $Comp
-L power:GND #PWR0118
+L WDebug_KiCAD-rescue:GND-power #PWR0118
 U 1 1 5E2757FA
 P 1700 3750
 F 0 "#PWR0118" H 1700 3500 50  0001 C CNN
@@ -857,7 +858,7 @@ NoConn ~ 5700 4300
 Wire Wire Line
 	1700 3250 1700 3750
 $Comp
-L Interface_USB:USB2514B_Bi U1
+L WDebug_KiCAD-rescue:USB2514B_Bi-Interface_USB U1
 U 1 1 5E0A3B3E
 P 4600 3400
 F 0 "U1" H 4600 1811 50  0000 C CNN
@@ -881,7 +882,7 @@ USB4-
 Text Label 6450 4100 2    50   ~ 0
 USB4+
 $Comp
-L power:GND #PWR0119
+L WDebug_KiCAD-rescue:GND-power #PWR0119
 U 1 1 5E2C3CE5
 P 4600 5300
 F 0 "#PWR0119" H 4600 5050 50  0001 C CNN
@@ -894,7 +895,7 @@ $EndComp
 Wire Wire Line
 	4600 4900 4600 5300
 $Comp
-L power:+3V3 #PWR0120
+L WDebug_KiCAD-rescue:+3V3-power #PWR0120
 U 1 1 5E0B4FA9
 P 6700 4750
 F 0 "#PWR0120" H 6700 4600 50  0001 C CNN
@@ -905,7 +906,7 @@ F 3 "" H 6700 4750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR0121
+L WDebug_KiCAD-rescue:+3V3-power #PWR0121
 U 1 1 5E0B5CAB
 P 7700 4750
 F 0 "#PWR0121" H 7700 4600 50  0001 C CNN
@@ -916,7 +917,7 @@ F 3 "" H 7700 4750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0122
+L WDebug_KiCAD-rescue:GND-power #PWR0122
 U 1 1 5E0B68A4
 P 7700 6150
 F 0 "#PWR0122" H 7700 5900 50  0001 C CNN
@@ -991,7 +992,7 @@ NoConn ~ 6900 5600
 Text Label 6550 5700 0    50   ~ 0
 KEY_RST
 $Comp
-L power:GND #PWR0123
+L WDebug_KiCAD-rescue:GND-power #PWR0123
 U 1 1 5E0EFBFB
 P 8800 6200
 F 0 "#PWR0123" H 8800 5950 50  0001 C CNN
@@ -1016,7 +1017,7 @@ Wire Wire Line
 	8800 5400 8800 5900
 Connection ~ 8800 5900
 $Comp
-L Device:R_Small_US R18
+L WDebug_KiCAD-rescue:R_Small_US-Device R18
 U 1 1 5E114810
 P 10150 2100
 F 0 "R18" V 10100 2200 50  0000 C CNN
@@ -1045,7 +1046,7 @@ TX2
 Text Label 8250 5000 0    50   ~ 0
 RX2
 $Comp
-L Device:R_Small_US R19
+L WDebug_KiCAD-rescue:R_Small_US-Device R19
 U 1 1 5E114C34
 P 10150 2000
 F 0 "R19" V 10100 2100 50  0000 C CNN
@@ -1072,7 +1073,7 @@ RX1
 Text Label 9950 5300 0    50   ~ 0
 KEY_RST
 $Comp
-L power:+3.3V #PWR0124
+L WDebug_KiCAD-rescue:+3.3V-power #PWR0124
 U 1 1 5E1B1648
 P 9750 5500
 F 0 "#PWR0124" H 9750 5350 50  0001 C CNN
@@ -1085,7 +1086,7 @@ $EndComp
 Wire Wire Line
 	10700 5500 9750 5500
 $Comp
-L power:GND #PWR0125
+L WDebug_KiCAD-rescue:GND-power #PWR0125
 U 1 1 5E1BC4B1
 P 10500 6200
 F 0 "#PWR0125" H 10500 5950 50  0001 C CNN
@@ -1118,7 +1119,7 @@ TX2
 Text Label 9950 4900 0    50   ~ 0
 JTCK
 $Comp
-L power:+3.3V #PWR0126
+L WDebug_KiCAD-rescue:+3.3V-power #PWR0126
 U 1 1 5E24E2A4
 P 5950 5000
 F 0 "#PWR0126" H 5950 4850 50  0001 C CNN
@@ -1166,7 +1167,7 @@ JTMS
 Text Label 6500 5500 0    50   ~ 0
 JTCK
 $Comp
-L Device:R_Small_US R14
+L WDebug_KiCAD-rescue:R_Small_US-Device R14
 U 1 1 5E28578F
 P 6250 5200
 F 0 "R14" V 6200 5100 50  0000 C CNN
@@ -1179,7 +1180,7 @@ $EndComp
 Wire Wire Line
 	6150 5200 5950 5200
 $Comp
-L Device:R_Small_US R15
+L WDebug_KiCAD-rescue:R_Small_US-Device R15
 U 1 1 5E2867E7
 P 6250 5300
 F 0 "R15" V 6200 5200 50  0000 C CNN
@@ -1192,7 +1193,7 @@ $EndComp
 Wire Wire Line
 	6150 5300 5800 5300
 $Comp
-L Device:R_Small_US R12
+L WDebug_KiCAD-rescue:R_Small_US-Device R12
 U 1 1 5E287225
 P 5700 5300
 F 0 "R12" V 5650 5200 50  0000 C CNN
@@ -1205,7 +1206,7 @@ $EndComp
 Wire Wire Line
 	5600 5300 5450 5300
 $Comp
-L Device:R_Small_US R13
+L WDebug_KiCAD-rescue:R_Small_US-Device R13
 U 1 1 5E2883E7
 P 5800 5500
 F 0 "R13" V 5750 5400 50  0000 C CNN
@@ -1249,7 +1250,7 @@ Wire Wire Line
 	1550 5550 1550 5950
 Connection ~ 1550 5550
 $Comp
-L Regulator_Linear:SPX3819M5-L U4
+L WDebug_KiCAD-rescue:SPX3819M5-L-Regulator_Linear U4
 U 1 1 5E3A7DFA
 P 7250 1200
 F 0 "U4" H 7250 1542 50  0000 C CNN
@@ -1260,7 +1261,7 @@ F 3 "https://www.exar.com/content/document.ashx?id=22106&languageid=1033&type=Da
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR0127
+L WDebug_KiCAD-rescue:+3.3V-power #PWR0127
 U 1 1 5E3AA259
 P 8300 950
 F 0 "#PWR0127" H 8300 800 50  0001 C CNN
@@ -1275,7 +1276,7 @@ Wire Wire Line
 Wire Wire Line
 	8300 1100 8300 950 
 $Comp
-L power:GND #PWR0128
+L WDebug_KiCAD-rescue:GND-power #PWR0128
 U 1 1 5E3C4816
 P 7250 1850
 F 0 "#PWR0128" H 7250 1600 50  0001 C CNN
@@ -1286,7 +1287,7 @@ F 3 "" H 7250 1850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small_US R24
+L WDebug_KiCAD-rescue:R_Small_US-Device R24
 U 1 1 5E3D54A9
 P 6000 6300
 F 0 "R24" V 5950 6200 50  0000 C CNN
@@ -1297,7 +1298,7 @@ F 3 "~" H 6000 6300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C C9
+L WDebug_KiCAD-rescue:C-Device C9
 U 1 1 5E3D8AD3
 P 6300 6800
 F 0 "C9" H 6350 6900 50  0000 L CNN
@@ -1308,7 +1309,7 @@ F 3 "~" H 6300 6800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0129
+L WDebug_KiCAD-rescue:GND-power #PWR0129
 U 1 1 5E3DA093
 P 6600 7400
 F 0 "#PWR0129" H 6600 7150 50  0001 C CNN
@@ -1352,7 +1353,7 @@ Wire Wire Line
 Text Label 5550 6300 0    50   ~ 0
 KEY_RST
 $Comp
-L Device:R_Small_US R25
+L WDebug_KiCAD-rescue:R_Small_US-Device R25
 U 1 1 5E445D14
 P 6750 1200
 F 0 "R25" V 6700 1100 50  0000 C CNN
@@ -1367,7 +1368,7 @@ Wire Wire Line
 Wire Wire Line
 	6650 1200 6500 1200
 $Comp
-L Device:C C8
+L WDebug_KiCAD-rescue:C-Device C8
 U 1 1 5E463EAF
 P 5900 1550
 F 0 "C8" H 5950 1650 50  0000 L CNN
@@ -1378,7 +1379,7 @@ F 3 "~" H 5900 1550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C10
+L WDebug_KiCAD-rescue:C-Device C10
 U 1 1 5E467AC5
 P 6200 1550
 F 0 "C10" H 6250 1650 50  0000 L CNN
@@ -1389,7 +1390,7 @@ F 3 "~" H 6200 1550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C11
+L WDebug_KiCAD-rescue:C-Device C11
 U 1 1 5E475BF0
 P 6500 1550
 F 0 "C11" H 6550 1650 50  0000 L CNN
@@ -1431,7 +1432,7 @@ Wire Wire Line
 	5900 1750 6200 1750
 Connection ~ 6200 1750
 $Comp
-L Device:C C12
+L WDebug_KiCAD-rescue:C-Device C12
 U 1 1 5E50F6C9
 P 7700 1550
 F 0 "C12" H 7750 1650 50  0000 L CNN
@@ -1442,7 +1443,7 @@ F 3 "~" H 7700 1550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C13
+L WDebug_KiCAD-rescue:C-Device C13
 U 1 1 5E50F6CF
 P 8000 1550
 F 0 "C13" H 8050 1650 50  0000 L CNN
@@ -1453,7 +1454,7 @@ F 3 "~" H 8000 1550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C14
+L WDebug_KiCAD-rescue:C-Device C14
 U 1 1 5E50F6D5
 P 8300 1550
 F 0 "C14" H 8350 1650 50  0000 L CNN
@@ -1491,7 +1492,7 @@ Wire Wire Line
 	7700 1750 7250 1750
 Connection ~ 7700 1750
 $Comp
-L power:+5V #PWR0130
+L WDebug_KiCAD-rescue:+5V-power #PWR0130
 U 1 1 5E3A97BF
 P 5900 950
 F 0 "#PWR0130" H 5900 800 50  0001 C CNN
@@ -1519,7 +1520,7 @@ Wire Wire Line
 Wire Wire Line
 	10700 4700 9950 4700
 $Comp
-L Connector_Generic:Conn_02x10_Odd_Even J2
+L WDebug_KiCAD-rescue:Conn_02x10_Odd_Even-Connector_Generic J2
 U 1 1 5E0AA67C
 P 7100 5500
 F 0 "J2" H 7150 6117 50  0000 C CNN
@@ -1542,7 +1543,7 @@ Wire Wire Line
 Wire Wire Line
 	10000 3500 10100 3500
 $Comp
-L Device:R_Small_US R16
+L WDebug_KiCAD-rescue:R_Small_US-Device R16
 U 1 1 5E159201
 P 10200 3500
 F 0 "R16" V 10150 3600 50  0000 C CNN
@@ -1553,7 +1554,7 @@ F 3 "~" H 10200 3500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small_US R17
+L WDebug_KiCAD-rescue:R_Small_US-Device R17
 U 1 1 5E15A150
 P 10200 3400
 F 0 "R17" V 10150 3500 50  0000 C CNN

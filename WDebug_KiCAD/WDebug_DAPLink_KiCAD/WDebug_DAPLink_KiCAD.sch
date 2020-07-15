@@ -229,9 +229,9 @@ F 3 "" H 3500 4100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 10000 3850 2    50   ~ 0
-PWR_RED
+MCU_TX1
 Text Label 10000 3950 2    50   ~ 0
-T_SWO
+MCU_RX1
 Text Label 10000 4150 2    50   ~ 0
 USB_D+
 Text Label 10000 4050 2    50   ~ 0
@@ -241,12 +241,10 @@ IF_SWCLK
 Text Label 10000 4250 2    50   ~ 0
 IF_SWDIO
 Text Label 10000 3250 2    50   ~ 0
-T_RX
+MCU_RX2
 Text Label 10000 3150 2    50   ~ 0
-T_TX
+MCU_TX2
 NoConn ~ 9600 4450
-NoConn ~ 9600 3750
-NoConn ~ 9600 3650
 NoConn ~ 9600 3550
 Wire Wire Line
 	9600 4350 10000 4350
@@ -888,11 +886,11 @@ TX2
 Text Label 3400 5600 2    50   Italic 0
 RX1
 Text Label 3400 5700 2    50   ~ 0
-T_RX
+MCU_RX1
 Text Label 3400 5800 2    50   ~ 0
 TX1
 Text Label 3400 5900 2    50   ~ 0
-T_TX
+MCU_TX1
 Text Label 5350 3200 0    50   ~ 0
 RX1
 Text Label 5350 3300 0    50   ~ 0
@@ -948,9 +946,9 @@ Wire Wire Line
 Wire Wire Line
 	2500 5900 2150 5900
 Text Label 2150 5700 0    50   ~ 0
-T_RX
+MCU_RX2
 Text Label 2150 5900 0    50   ~ 0
-T_TX
+MCU_TX2
 $Comp
 L WDebug_DAPLink_KiCAD-rescue:SW_Push-Switch SW1
 U 1 1 5E85FFF2
@@ -1305,4 +1303,12 @@ Text Label 5350 4000 0    50   ~ 0
 3_3V_Conn
 Text Label 5350 6550 0    50   ~ 0
 3_3V_Conn
+Wire Wire Line
+	9600 3750 10000 3750
+Wire Wire Line
+	9600 3650 10000 3650
+Text Label 10000 3650 2    50   ~ 0
+PWR_RED
+Text Label 10000 3750 2    50   ~ 0
+T_SWO
 $EndSCHEMATC
