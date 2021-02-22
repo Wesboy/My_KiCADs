@@ -43,7 +43,7 @@
 #if (SWO_UART != 0)
 
 #ifndef  USART_PORT
-#define  USART_PORT 			1           /* SWO USART Port Number */
+#define  USART_PORT 			3           /* SWO USART Port Number */
 #endif
 
 // USART Driver

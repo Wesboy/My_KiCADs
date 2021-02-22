@@ -148,7 +148,7 @@
             <RestoreSysVw>1</RestoreSysVw>
           </Target>
           <RunDebugAfterBuild>0</RunDebugAfterBuild>
-          <TargetSelection>12</TargetSelection>
+          <TargetSelection>3</TargetSelection>
           <SimDlls>
             <CpuDll></CpuDll>
             <CpuDllArguments></CpuDllArguments>
@@ -2746,6 +2746,7 @@
       <TargetName>STM32F103-STLINK_V21</TargetName>
       <ToolsetNumber>0x4</ToolsetNumber>
       <ToolsetName>ARM-ADS</ToolsetName>
+      <pCCUsed>5060750::V5.06 update 6 (build 750)::ARMCC</pCCUsed>
       <uAC6>0</uAC6>
       <TargetOption>
         <TargetCommonOption>
@@ -2898,7 +2899,7 @@
             <PeripheralDll></PeripheralDll>
             <PeripheralDllArguments></PeripheralDllArguments>
             <InitializationFile></InitializationFile>
-            <Driver>Segger\JL2CM3.dll</Driver>
+            <Driver>BIN\CMSIS_AGDI.dll</Driver>
           </TargetDlls>
         </DebugOption>
         <Utilities>
@@ -3111,7 +3112,7 @@
               <MiscControls></MiscControls>
               <Define>USE_STDPERIPH_DRIVER STM32F10X_MD STLINK_V21 SWO_PA10</Define>
               <Undefine></Undefine>
-              <IncludePath>.\CMSIS-DAP;.\USB;.\User;.\Driver\STM32F10x_ARM_Driver;.\Driver\STM32F10x_StdPeriph_Driver\inc;C:\Keil\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include;C:\Keil\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Driver\Include</IncludePath>
+              <IncludePath>.\CMSIS-DAP;.\USB;.\User;.\Driver\STM32F10x_ARM_Driver;.\Driver\STM32F10x_StdPeriph_Driver\inc;C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include;C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Driver\Include</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>

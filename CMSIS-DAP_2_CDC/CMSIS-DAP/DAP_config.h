@@ -127,7 +127,7 @@ Provides definitions about:
 
 /// Indicate that UART Serial Wire Output (SWO) trace is available.
 /// This information is returned by the command \ref DAP_Info as part of <b>Capabilities</b>.
-#define SWO_UART                1       ///< SWO UART:  1 = available, 0 = not available.
+#define SWO_UART                0       ///< SWO UART:  1 = available, 0 = not available.
 
 /// Maximum SWO UART Baudrate.
 #define SWO_UART_MAX_BAUDRATE   1000000U  ///< 1MHz, SWO UART Maximum Baudrate in Hz.
@@ -426,17 +426,17 @@ typedef enum Pin_e {
 
 #elif defined ( STLINK_V21 )
 
-#define LED_CONNECTED_RCC   RCC_APB2ENR_IOPAEN
+#define LED_CONNECTED_RCC   RCC_APB2ENR_IOPBEN
 #define LED_RUNNING_RCC     RCC_APB2ENR_IOPAEN
 
 // Connected LED (GREEN)  0
 // Target Running LED (RED) 1
 // Off - float
-#define LED_CONNECTED_PORT  GPIOA
-#define LED_CONNECTED_PIN   9
+#define LED_CONNECTED_PORT  GPIOB
+#define LED_CONNECTED_PIN   5
 
 #define LED_RUNNING_PORT    GPIOA
-#define LED_RUNNING_PIN     8
+#define LED_RUNNING_PIN     7
 
 //  #define LED_CONNECTED_MASK  PIN_MASK(LED_CONNECTED_PIN)
 //  #define LED_RUNNING_MASK    PIN_MASK(LED_RUNNING_PIN)
