@@ -19,21 +19,10 @@ U 1 1 6160ED63
 P 6400 3100
 F 0 "J2" H 6250 4150 50  0000 L CNN
 F 1 "YOUGU_Debug" H 6050 1850 50  0000 L CNN
-F 2 "WDebug_DAPLink:1x18_P1.0mm" H 6400 3100 50  0001 C CNN
+F 2 "Connector_PinHeader_1.00mm:1x18_P1.0mm" H 6400 3100 50  0001 C CNN
 F 3 "" H 6400 3100 50  0001 C CNN
 	1    6400 3100
 	1    0    0    1   
-$EndComp
-$Comp
-L Connector_Generic:Conn_02x05_Counter_Clockwise J1
-U 1 1 6161205F
-P 4600 3900
-F 0 "J1" H 4650 4317 50  0000 C CNN
-F 1 "ConnDebug" H 4650 4226 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" H 4600 3900 50  0001 C CNN
-F 3 "~" H 4600 3900 50  0001 C CNN
-	1    4600 3900
-	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0102
@@ -67,40 +56,22 @@ Wire Wire Line
 	6200 3500 5900 3500
 Wire Wire Line
 	6200 3400 5900 3400
-Wire Wire Line
-	4400 4100 4350 4100
-Wire Wire Line
-	4350 4100 4350 4200
-Wire Wire Line
-	4900 4100 5600 4100
-Wire Wire Line
-	4900 3800 5300 3800
-Wire Wire Line
-	4900 3900 5300 3900
-Wire Wire Line
-	4900 4000 5300 4000
-Text Label 5300 3800 2    50   ~ 0
+Text Label 5200 4000 2    50   ~ 0
 T_SWCLK
-Text Label 5300 3900 2    50   ~ 0
+Text Label 4000 4100 0    50   ~ 0
 T_SWDIO
-Text Label 5300 4000 2    50   ~ 0
+Text Label 4000 3900 0    50   ~ 0
 TG_RST
 Wire Wire Line
-	4400 3700 4200 3700
+	4350 4000 4000 4000
 Wire Wire Line
-	4400 3800 4200 3800
-Wire Wire Line
-	4400 3900 4200 3900
-Wire Wire Line
-	4400 4000 4200 4000
-Text Label 4200 3700 0    50   ~ 0
+	4350 3800 4000 3800
+Text Label 4000 4000 0    50   ~ 0
 RX1
-Text Label 4200 3800 0    50   ~ 0
+Text Label 5150 3700 2    50   ~ 0
 RX2
-Text Label 4200 3900 0    50   ~ 0
+Text Label 4000 3800 0    50   ~ 0
 TX1
-Text Label 4200 4000 0    50   ~ 0
-TX2
 Text Label 5900 3600 0    50   ~ 0
 TG_RST
 Text Label 5900 3500 0    50   ~ 0
@@ -129,13 +100,6 @@ RX1
 Wire Wire Line
 	6200 2300 5900 2300
 Connection ~ 5600 4100
-Wire Wire Line
-	4350 4200 5600 4200
-Wire Wire Line
-	5600 4100 5600 4200
-Connection ~ 5600 4200
-Wire Wire Line
-	5600 4200 5600 4400
 NoConn ~ 6200 3200
 NoConn ~ 6200 3300
 $Comp
@@ -161,32 +125,32 @@ Wire Wire Line
 	5350 2100 5350 2250
 Connection ~ 6050 2100
 $Comp
-L WDebug_KiCAD-rescue:Conn_01x20_Female-Connector J?
+L WDebug_KiCAD-rescue:Conn_01x20_Female-Connector J3
 U 1 1 61DDBAC2
 P 7450 3000
-F 0 "J?" H 7300 1850 50  0000 L CNN
+F 0 "J3" H 7300 1850 50  0000 L CNN
 F 1 "Flyaudio18Pin" H 7100 4100 50  0000 L CNN
-F 2 "WDebug_DAPLink:1x18_P1.0mm" H 7450 3000 50  0001 C CNN
+F 2 "Connector_PinHeader_1.00mm:1x18_P1.0mm" H 7450 3000 50  0001 C CNN
 F 3 "" H 7450 3000 50  0001 C CNN
 	1    7450 3000
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x18_Female J?
+L Connector:Conn_01x18_Female J4
 U 1 1 61DE2FE0
 P 8550 3100
-F 0 "J?" H 8400 2050 50  0000 L CNN
+F 0 "J4" H 8400 2050 50  0000 L CNN
 F 1 "Flyaudio16Pin" H 8200 4100 50  0000 L CNN
-F 2 "" H 8550 3100 50  0001 C CNN
+F 2 "Connector_PinHeader_1.00mm:1x16_P1.0mm" H 8550 3100 50  0001 C CNN
 F 3 "~" H 8550 3100 50  0001 C CNN
 	1    8550 3100
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0101
 U 1 1 61DE9B54
 P 6800 4250
-F 0 "#PWR?" H 6800 4000 50  0001 C CNN
+F 0 "#PWR0101" H 6800 4000 50  0001 C CNN
 F 1 "GND" H 6805 4077 50  0000 C CNN
 F 2 "" H 6800 4250 50  0001 C CNN
 F 3 "" H 6800 4250 50  0001 C CNN
@@ -234,10 +198,10 @@ NoConn ~ 7250 2300
 NoConn ~ 7250 2200
 NoConn ~ 7250 2100
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0104
 U 1 1 61DFFCCC
 P 7850 4450
-F 0 "#PWR?" H 7850 4200 50  0001 C CNN
+F 0 "#PWR0104" H 7850 4200 50  0001 C CNN
 F 1 "GND" H 7855 4277 50  0000 C CNN
 F 2 "" H 7850 4450 50  0001 C CNN
 F 3 "" H 7850 4450 50  0001 C CNN
@@ -285,22 +249,22 @@ NoConn ~ 8350 2300
 $Comp
 L Device:R_Small_US R1
 U 1 1 61619B46
-P 5200 3700
-F 0 "R1" V 4995 3700 50  0000 C CNN
-F 1 "0R" V 5086 3700 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 5200 3700 50  0001 C CNN
-F 3 "~" H 5200 3700 50  0001 C CNN
-	1    5200 3700
-	0    1    1    0   
+P 4050 3700
+F 0 "R1" V 4150 3700 50  0000 C CNN
+F 1 "0R" V 4100 3600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4050 3700 50  0001 C CNN
+F 3 "~" H 4050 3700 50  0001 C CNN
+	1    4050 3700
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	4900 3700 5100 3700
+	4350 3700 4150 3700
 Wire Wire Line
-	5300 3700 5500 3700
+	3950 3700 3750 3700
 Wire Wire Line
 	5900 3700 5700 3700
 Connection ~ 5900 3700
-Text Label 5500 3700 2    50   ~ 0
+Text Label 3750 3700 0    50   ~ 0
 3_3V
 Text Label 5700 3700 0    50   ~ 0
 3_3V
@@ -319,7 +283,7 @@ T_SWCLK
 Text Label 7000 3700 0    50   ~ 0
 RX2
 Text Label 7000 3800 0    50   ~ 0
-TX1
+TX2
 Text Label 8000 3500 0    50   ~ 0
 3_3V
 Text Label 8000 3300 0    50   ~ 0
@@ -338,4 +302,36 @@ Text Label 8000 2700 0    50   ~ 0
 RX2
 NoConn ~ 8000 3400
 NoConn ~ 7000 3200
+Wire Wire Line
+	5600 4100 5600 4400
+Wire Wire Line
+	5600 3800 5600 3900
+Connection ~ 5600 3900
+Wire Wire Line
+	4850 3800 5600 3800
+Wire Wire Line
+	4850 4000 5200 4000
+Wire Wire Line
+	4850 4100 5600 4100
+Wire Wire Line
+	4000 4100 4350 4100
+Wire Wire Line
+	4350 3900 4000 3900
+Wire Wire Line
+	4850 3700 5150 3700
+$Comp
+L Connector_Generic:Conn_02x05_Counter_Clockwise J1
+U 1 1 6161205F
+P 4550 3900
+F 0 "J1" H 4600 4317 50  0000 C CNN
+F 1 "ConnDebug" H 4600 4226 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" H 4550 3900 50  0001 C CNN
+F 3 "~" H 4550 3900 50  0001 C CNN
+	1    4550 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 3900 5150 3900
+Text Label 5150 3900 2    50   ~ 0
+TX2
 $EndSCHEMATC

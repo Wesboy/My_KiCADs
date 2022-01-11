@@ -161,7 +161,6 @@ Wire Wire Line
 Connection ~ 3200 4300
 Wire Wire Line
 	3200 4400 3200 4300
-Connection ~ 3500 4300
 Wire Wire Line
 	3500 4300 3500 4400
 Wire Wire Line
@@ -183,8 +182,6 @@ F 3 "" H 2150 5100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3500 4300 3500 4100
-Wire Wire Line
 	2750 4300 2900 4300
 Wire Wire Line
 	950  4300 1300 4300
@@ -204,12 +201,12 @@ $EndComp
 $Comp
 L WDebug_DAPLink_KiCAD-rescue:+3.3V-power #PWR0115
 U 1 1 5E27A434
-P 3500 4100
-F 0 "#PWR0115" H 3500 3950 50  0001 C CNN
-F 1 "+3.3V" H 3515 4273 50  0000 C CNN
-F 2 "" H 3500 4100 50  0001 C CNN
-F 3 "" H 3500 4100 50  0001 C CNN
-	1    3500 4100
+P 3950 4000
+F 0 "#PWR0115" H 3950 3850 50  0001 C CNN
+F 1 "+3.3V" H 3965 4173 50  0000 C CNN
+F 2 "" H 3950 4000 50  0001 C CNN
+F 3 "" H 3950 4000 50  0001 C CNN
+	1    3950 4000
 	1    0    0    -1  
 $EndComp
 Text Label 10000 3850 2    50   ~ 0
@@ -886,41 +883,24 @@ NoConn ~ 9600 3450
 $Comp
 L WDebug_DAPLink_KiCAD-rescue:+3.3V-power #PWR0121
 U 1 1 5E947206
-P 3850 5750
-F 0 "#PWR0121" H 3850 5600 50  0001 C CNN
-F 1 "+3.3V" H 3865 5923 50  0000 C CNN
-F 2 "" H 3850 5750 50  0001 C CNN
-F 3 "" H 3850 5750 50  0001 C CNN
-	1    3850 5750
-	1    0    0    -1  
-$EndComp
-$Comp
-L WDebug_DAPLink_KiCAD-rescue:GND-power #PWR0122
-U 1 1 5E950146
-P 3150 6600
-F 0 "#PWR0122" H 3150 6350 50  0001 C CNN
-F 1 "GND" H 3155 6427 50  0000 C CNN
-F 2 "" H 3150 6600 50  0001 C CNN
-F 3 "" H 3150 6600 50  0001 C CNN
-	1    3150 6600
+P 2500 5750
+F 0 "#PWR0121" H 2500 5600 50  0001 C CNN
+F 1 "+3.3V" H 2515 5923 50  0000 C CNN
+F 2 "" H 2500 5750 50  0001 C CNN
+F 3 "" H 2500 5750 50  0001 C CNN
+	1    2500 5750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3400 5950 3850 5950
-Wire Wire Line
-	3850 5950 3850 5750
-Wire Wire Line
-	3400 6050 3850 6050
+	2500 5950 2500 5750
 Wire Wire Line
 	3400 6150 3850 6150
 Wire Wire Line
 	3400 6250 3850 6250
-Text Label 3850 6050 2    50   ~ 0
-T_SWCLK
 Text Label 3850 6150 2    50   ~ 0
-T_SWDIO
+MCU_TX2
 Text Label 3850 6250 2    50   ~ 0
-TG_RST
+T_SWCLK
 $Comp
 L WDebug_DAPLink_KiCAD-rescue:XC6228D332VR-G-matrix_display-rescue-matrix_control_main-rescue U1
 U 1 1 5EC428E3
@@ -1091,38 +1071,67 @@ F 3 "~" H 3100 6150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2900 5950 2500 5950
-Wire Wire Line
 	2900 6050 2500 6050
 Wire Wire Line
 	2900 6150 2500 6150
 Wire Wire Line
 	2900 6250 2500 6250
-Wire Wire Line
-	2900 6350 2700 6350
-Wire Wire Line
-	3400 6350 3550 6350
-Wire Wire Line
-	3550 6350 3550 6500
-Wire Wire Line
-	3550 6500 3150 6500
-Wire Wire Line
-	3150 6500 3150 6600
-Wire Wire Line
-	2700 6500 3150 6500
-Wire Wire Line
-	2700 6350 2700 6500
-Connection ~ 3150 6500
-Text Label 2500 5950 0    50   ~ 0
-MCU_RX1
 Text Label 2500 6050 0    50   ~ 0
-MCU_RX2
-Text Label 2500 6150 0    50   ~ 0
 MCU_TX1
+Text Label 2500 6150 0    50   ~ 0
+TG_RST
 Text Label 2500 6250 0    50   ~ 0
-MCU_TX2
+MCU_RX1
 Wire Wire Line
 	1200 5600 1550 5600
 Text Label 1550 5600 2    50   ~ 0
 IF_RST
+$Comp
+L WDebug_DAPLink_KiCAD-rescue:R_Small_US-Device R?
+U 1 1 61DF4563
+P 3700 4300
+F 0 "R?" V 3650 4200 50  0000 C CNN
+F 1 "0" V 3650 4450 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 3700 4300 50  0001 C CNN
+F 3 "~" H 3700 4300 50  0001 C CNN
+	1    3700 4300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3950 4300 3800 4300
+Wire Wire Line
+	3950 4000 3950 4300
+Wire Wire Line
+	3600 4300 3500 4300
+Connection ~ 3500 4300
+Wire Wire Line
+	2500 5950 2900 5950
+Wire Wire Line
+	2900 6350 2500 6350
+Text Label 2500 6350 0    50   ~ 0
+T_SWDIO
+$Comp
+L WDebug_DAPLink_KiCAD-rescue:GND-power #PWR0122
+U 1 1 5E950146
+P 3950 6700
+F 0 "#PWR0122" H 3950 6450 50  0001 C CNN
+F 1 "GND" H 3955 6527 50  0000 C CNN
+F 2 "" H 3950 6700 50  0001 C CNN
+F 3 "" H 3950 6700 50  0001 C CNN
+	1    3950 6700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3950 6050 3950 6350
+Wire Wire Line
+	3400 6050 3950 6050
+Wire Wire Line
+	3400 6350 3950 6350
+Connection ~ 3950 6350
+Wire Wire Line
+	3950 6350 3950 6700
+Wire Wire Line
+	3400 5950 3850 5950
+Text Label 3850 5950 2    50   ~ 0
+MCU_RX2
 $EndSCHEMATC
