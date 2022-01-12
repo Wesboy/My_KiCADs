@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew "(5.1.9)-1")
+(kicad_pcb (version 20171130) (host pcbnew "(5.1.4)-1")
 
   (general
     (thickness 1.6)
@@ -974,7 +974,7 @@
 
   (module WDebug_DAPLink:hanpan locked (layer F.Cu) (tedit 5E93F18F) (tstamp 61610028)
     (at 132.60578 60.15228)
-    (fp_text reference REF** (at -0.2667 -0.4064) (layer F.SilkS) hide
+    (fp_text reference 4 (at 4.82346 -6.50748) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value hanpan (at 0 -0.5) (layer F.Fab)
@@ -985,10 +985,10 @@
 
   (module WDebug_DAPLink:hanpan locked (layer F.Cu) (tedit 5E93F184) (tstamp 61610102)
     (at 132.61848 84.76488)
-    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+    (fp_text reference 3 (at 0.41402 -6.6294) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value hanpan (at 0 -0.5) (layer F.Fab)
+    (fp_text value hanpan (at 5.48132 -6.7691) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at -0.095086 -2.5982) (size 5 5) (drill 3) (layers *.Cu *.Mask))
@@ -996,10 +996,10 @@
 
   (module WDebug_DAPLink:hanpan locked (layer F.Cu) (tedit 5E95854F) (tstamp 616100CE)
     (at 179.373812 86.10634)
-    (fp_text reference REF** (at -0.2667 -0.4064) (layer F.SilkS) hide
+    (fp_text reference 2 (at -4.304312 -1.33638) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value hanpan (at 0 -0.5) (layer F.Fab)
+    (fp_text value hanpan (at 0.770608 -7.54668) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at -0.029492 -3.9856) (size 5 5) (drill 3) (layers *.Cu *.Mask))
@@ -1007,7 +1007,7 @@
 
   (module WDebug_DAPLink:hanpan locked (layer F.Cu) (tedit 5E958541) (tstamp 6160FF81)
     (at 179.31892 60.31738)
-    (fp_text reference REF** (at -0.2667 -0.4064) (layer F.SilkS) hide
+    (fp_text reference 1 (at -4.43484 -6.21792) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value hanpan (at 0 -0.5) (layer F.Fab)

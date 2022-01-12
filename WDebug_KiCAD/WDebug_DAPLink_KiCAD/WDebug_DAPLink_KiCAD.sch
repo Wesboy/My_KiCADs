@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:WDebug_DAPLink_KiCAD-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -49,17 +50,6 @@ Wire Wire Line
 	1200 5800 1550 5800
 Wire Wire Line
 	1200 5700 1550 5700
-$Comp
-L WDebug_DAPLink_KiCAD-rescue:Conn_01x04-Connector_Generic J1
-U 1 1 5E3B17F1
-P 1000 5800
-F 0 "J1" H 918 5375 50  0000 C CNN
-F 1 "Conn_01x04" H 918 5466 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 1000 5800 50  0001 C CNN
-F 3 "~" H 1000 5800 50  0001 C CNN
-	1    1000 5800
-	-1   0    0    1   
-$EndComp
 Text Label 8100 1850 0    50   ~ 0
 IF_RST
 Wire Wire Line
@@ -431,7 +421,7 @@ Wire Wire Line
 	7550 2900 7550 3100
 Wire Wire Line
 	7400 2900 7550 2900
-Text Label 3850 2450 2    50   ~ 0
+Text Label 3850 2350 2    50   ~ 0
 USB_D+
 Text Label 3850 2250 2    50   ~ 0
 USB_D-
@@ -466,22 +456,16 @@ F 3 "" H 3200 3450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3550 2450 3850 2450
-Connection ~ 3550 2450
-Wire Wire Line
-	2800 2450 3550 2450
-Wire Wire Line
-	3550 2700 3550 2450
+	3550 2350 3850 2350
+Connection ~ 3550 2350
 Wire Wire Line
 	3200 2250 3850 2250
 Connection ~ 3200 2250
 Wire Wire Line
 	3200 2700 3200 2250
 Wire Wire Line
-	2450 2450 2600 2450
-Connection ~ 2450 2450
-Wire Wire Line
-	2450 2000 2450 2450
+	2450 2350 2600 2350
+Connection ~ 2450 2350
 Wire Wire Line
 	2950 2000 2450 2000
 Wire Wire Line
@@ -491,13 +475,13 @@ Wire Wire Line
 Wire Wire Line
 	2800 2250 3200 2250
 Wire Wire Line
-	2300 2450 2450 2450
+	2300 2350 2450 2350
 Wire Wire Line
 	2450 1750 2300 1750
 Wire Wire Line
 	2450 1550 2450 1750
 Wire Wire Line
-	2300 2250 2600 2250
+	2300 2250 2350 2250
 $Comp
 L WDebug_DAPLink_KiCAD-rescue:VBUS-power #PWR0106
 U 1 1 5E0EE49F
@@ -581,7 +565,7 @@ U 1 1 5E0E73EF
 P 7250 2900
 F 0 "Y1" H 7350 3100 50  0000 L CNN
 F 1 "8MHz" H 7300 2700 50  0000 L CNN
-F 2 "Crystal:Crystal_SMD_5032-4Pin_5.0x3.2mm" H 7250 2900 50  0001 C CNN
+F 2 "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm" H 7250 2900 50  0001 C CNN
 F 3 "~" H 7250 2900 50  0001 C CNN
 	1    7250 2900
 	1    0    0    -1  
@@ -688,12 +672,12 @@ $EndComp
 $Comp
 L WDebug_DAPLink_KiCAD-rescue:R_Small_US-Device R2
 U 1 1 5E0DE909
-P 2700 2450
-F 0 "R2" V 2650 2350 50  0000 C CNN
-F 1 "33R" V 2650 2600 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 2700 2450 50  0001 C CNN
-F 3 "~" H 2700 2450 50  0001 C CNN
-	1    2700 2450
+P 2700 2350
+F 0 "R2" V 2650 2250 50  0000 C CNN
+F 1 "33R" V 2650 2500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 2700 2350 50  0001 C CNN
+F 3 "~" H 2700 2350 50  0001 C CNN
+	1    2700 2350
 	0    1    1    0   
 $EndComp
 $Comp
@@ -706,17 +690,6 @@ F 2 "Resistor_SMD:R_0603_1608Metric" H 2700 2250 50  0001 C CNN
 F 3 "~" H 2700 2250 50  0001 C CNN
 	1    2700 2250
 	0    1    1    0   
-$EndComp
-$Comp
-L WDebug_DAPLink_KiCAD-rescue:USB_C_Plug_USB2.0-Connector P1
-U 1 1 5E0DCA6A
-P 1700 2350
-F 0 "P1" H 1807 3217 50  0000 C CNN
-F 1 "USB_C_Plug_USB2.0" H 1807 3126 50  0000 C CNN
-F 2 "WDebug_DAPLink:USB-Type-C" H 1850 2350 50  0001 C CNN
-F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 1850 2350 50  0001 C CNN
-	1    1700 2350
-	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	8900 1400 8800 1400
@@ -1023,34 +996,6 @@ Wire Wire Line
 	1650 4300 1300 4300
 NoConn ~ 8300 4150
 NoConn ~ 2750 4500
-$Comp
-L WDebug_DAPLink_KiCAD-rescue:+3.3V-power #PWR0104
-U 1 1 5E9EB13C
-P 4750 3400
-F 0 "#PWR0104" H 4750 3250 50  0001 C CNN
-F 1 "+3.3V" V 4765 3528 50  0000 L CNN
-F 2 "" H 4750 3400 50  0001 C CNN
-F 3 "" H 4750 3400 50  0001 C CNN
-	1    4750 3400
-	0    -1   -1   0   
-$EndComp
-$Comp
-L WDebug_DAPLink_KiCAD-rescue:Conn_01x02_Female-Connector J6
-U 1 1 5EBECC61
-P 5050 3400
-F 0 "J6" H 4942 3075 50  0000 C CNN
-F 1 "3.3V_Conn" H 4942 3166 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5050 3400 50  0001 C CNN
-F 3 "~" H 5050 3400 50  0001 C CNN
-	1    5050 3400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4850 3400 4750 3400
-Wire Wire Line
-	4850 3500 4400 3500
-Text Label 4400 3500 0    50   ~ 0
-3_3V_Conn
 Wire Wire Line
 	9600 3750 10000 3750
 Wire Wire Line
@@ -1087,10 +1032,10 @@ Wire Wire Line
 Text Label 1550 5600 2    50   ~ 0
 IF_RST
 $Comp
-L WDebug_DAPLink_KiCAD-rescue:R_Small_US-Device R?
+L WDebug_DAPLink_KiCAD-rescue:R_Small_US-Device R16
 U 1 1 61DF4563
 P 3700 4300
-F 0 "R?" V 3650 4200 50  0000 C CNN
+F 0 "R16" V 3650 4200 50  0000 C CNN
 F 1 "0" V 3650 4450 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 3700 4300 50  0001 C CNN
 F 3 "~" H 3700 4300 50  0001 C CNN
@@ -1134,4 +1079,58 @@ Wire Wire Line
 	3400 5950 3850 5950
 Text Label 3850 5950 2    50   ~ 0
 MCU_RX2
+$Comp
+L Connector:Conn_01x05_Male J1
+U 1 1 61DF6B08
+P 1000 5700
+F 0 "J1" H 1108 6081 50  0000 C CNN
+F 1 "Conn_01x05_Male" H 1108 5990 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 1000 5700 50  0001 C CNN
+F 3 "~" H 1000 5700 50  0001 C CNN
+	1    1000 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L WDebug_DAPLink_KiCAD-rescue:+3.3V-power #PWR0103
+U 1 1 61E1CDBF
+P 1550 5350
+F 0 "#PWR0103" H 1550 5200 50  0001 C CNN
+F 1 "+3.3V" H 1565 5523 50  0000 C CNN
+F 2 "" H 1550 5350 50  0001 C CNN
+F 3 "" H 1550 5350 50  0001 C CNN
+	1    1550 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1200 5500 1550 5500
+Wire Wire Line
+	1550 5500 1550 5350
+$Comp
+L WeissLib:USB_C_Plug_USB2.0-Connector P1
+U 1 1 61E3357A
+P 1700 2350
+F 0 "P1" H 1807 3217 50  0000 C CNN
+F 1 "USB_C_Plug_USB2.0-Connector" H 1807 3126 50  0000 C CNN
+F 2 "library:USB-C-SMD_KH-TYPE-C-16P" H 1850 2350 50  0001 C CNN
+F 3 "" H 1850 2350 50  0001 C CNN
+	1    1700 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 2000 2450 2350
+Wire Wire Line
+	2800 2350 3550 2350
+Wire Wire Line
+	3550 2350 3550 2700
+Wire Wire Line
+	2300 2650 2350 2650
+Wire Wire Line
+	2350 2650 2350 2250
+Connection ~ 2350 2250
+Wire Wire Line
+	2350 2250 2600 2250
+Wire Wire Line
+	2300 2750 2450 2750
+Wire Wire Line
+	2450 2750 2450 2350
 $EndSCHEMATC
