@@ -974,7 +974,7 @@
 
   (module WDebug_DAPLink:hanpan locked (layer F.Cu) (tedit 5E93F18F) (tstamp 61610028)
     (at 132.60578 60.15228)
-    (fp_text reference REF** (at 4.82346 -6.50748) (layer F.SilkS) hide
+    (fp_text reference 4 (at 4.82346 -6.50748) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value hanpan (at 0 -0.5) (layer F.Fab)
@@ -985,7 +985,7 @@
 
   (module WDebug_DAPLink:hanpan locked (layer F.Cu) (tedit 5E93F184) (tstamp 61610102)
     (at 132.61848 84.76488)
-    (fp_text reference REF** (at 0.41402 -6.6294) (layer F.SilkS) hide
+    (fp_text reference 3 (at 0.41402 -6.6294) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value hanpan (at 5.48132 -6.7691) (layer F.Fab)
@@ -996,7 +996,7 @@
 
   (module WDebug_DAPLink:hanpan locked (layer F.Cu) (tedit 5E95854F) (tstamp 616100CE)
     (at 179.373812 86.10634)
-    (fp_text reference REF** (at -4.304312 -1.33638) (layer F.SilkS) hide
+    (fp_text reference 2 (at -4.304312 -1.33638) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value hanpan (at 0.770608 -7.54668) (layer F.Fab)
@@ -1007,7 +1007,7 @@
 
   (module WDebug_DAPLink:hanpan locked (layer F.Cu) (tedit 5E958541) (tstamp 6160FF81)
     (at 179.31892 60.31738)
-    (fp_text reference REF** (at -4.43484 -6.21792) (layer F.SilkS) hide
+    (fp_text reference 1 (at -4.43484 -6.21792) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value hanpan (at 0 -0.5) (layer F.Fab)
