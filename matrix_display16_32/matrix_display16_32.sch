@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:matrix_display16_32-cache
 EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
@@ -31,7 +30,7 @@ U 1 1 5DCFF16E
 P 4600 9400
 F 0 "J1" H 4708 9781 50  0000 C CNN
 F 1 "Conn_01x05_Male" H 4708 9690 50  0000 C CNN
-F 2 "Connector_PinHeader_2.00mm:PinHeader_1x05_P2.00mm_Vertical" H 4600 9400 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 4600 9400 50  0001 C CNN
 F 3 "~" H 4600 9400 50  0001 C CNN
 	1    4600 9400
 	1    0    0    -1  
@@ -165,7 +164,7 @@ Wire Wire Line
 Wire Wire Line
 	10150 4250 10000 4250
 $Comp
-L matrix_display-rescue:Matrix_LED-LibCool U11
+L matrix_display16_32-rescue:Matrix_LED-LibCool-matrix_display-rescue U11
 U 1 1 5DD4E45D
 P 11050 4200
 F 0 "U11" H 11678 4095 60  0000 L CNN
@@ -197,7 +196,7 @@ CLK
 Text Label 3300 7300 0    50   ~ 0
 CS
 $Comp
-L matrix_display-rescue:RES(M)-LibCool R6
+L matrix_display16_32-rescue:RES(M)-LibCool-matrix_display-rescue R6
 U 1 1 5DD62A59
 P 3550 5750
 F 0 "R6" V 3550 5808 39  0000 L CNN
@@ -210,7 +209,7 @@ $EndComp
 Wire Wire Line
 	3550 5900 3650 5900
 $Comp
-L matrix_display-rescue:Matrix_LED-LibCool U9
+L matrix_display16_32-rescue:Matrix_LED-LibCool-matrix_display-rescue U9
 U 1 1 5DD05F05
 P 11000 2550
 F 0 "U9" H 11628 2445 60  0000 L CNN
@@ -253,7 +252,7 @@ Text Label 9950 2300 0    50   ~ 0
 Text Label 9950 2200 0    50   ~ 0
 1_DIG0
 $Comp
-L matrix_display-rescue:Matrix_LED-LibCool U12
+L matrix_display16_32-rescue:Matrix_LED-LibCool-matrix_display-rescue U12
 U 1 1 5DD62AA4
 P 13250 4200
 F 0 "U12" H 13878 4095 60  0000 L CNN
@@ -399,7 +398,7 @@ Wire Wire Line
 Wire Wire Line
 	4050 5500 4050 5600
 $Comp
-L Driver_LED:MAX7219 U6
+L matrix_display16_32-rescue:MAX7219-Driver_LED U6
 U 1 1 5DD62A4D
 P 4050 6700
 F 0 "U6" H 4207 7645 50  0000 C CNN
@@ -421,7 +420,7 @@ F 3 "" H 4050 5500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L matrix_display-rescue:Matrix_LED-LibCool U10
+L matrix_display16_32-rescue:Matrix_LED-LibCool-matrix_display-rescue U10
 U 1 1 5DD56516
 P 13250 2550
 F 0 "U10" H 13878 2445 60  0000 L CNN
@@ -591,7 +590,7 @@ Wire Wire Line
 Wire Wire Line
 	2500 5500 2500 5600
 $Comp
-L matrix_display-rescue:RES(M)-LibCool R5
+L matrix_display16_32-rescue:RES(M)-LibCool-matrix_display-rescue R5
 U 1 1 5DD4E412
 P 2000 5750
 F 0 "R5" V 2000 5808 39  0000 L CNN
@@ -610,7 +609,7 @@ Wire Wire Line
 Wire Wire Line
 	2100 7400 1750 7400
 $Comp
-L Driver_LED:MAX7219 U5
+L matrix_display16_32-rescue:MAX7219-Driver_LED U5
 U 1 1 5DD4E406
 P 2500 6700
 F 0 "U5" H 2657 7645 50  0000 C CNN
@@ -666,7 +665,7 @@ CLK
 Text Label 6450 7300 0    50   ~ 0
 CS
 $Comp
-L matrix_display-rescue:RES(M)-LibCool R8
+L matrix_display16_32-rescue:RES(M)-LibCool-matrix_display-rescue R8
 U 1 1 5DEF73BA
 P 6700 5750
 F 0 "R8" V 6700 5808 39  0000 L CNN
@@ -750,7 +749,7 @@ Wire Wire Line
 Wire Wire Line
 	7200 5500 7200 5600
 $Comp
-L Driver_LED:MAX7219 U8
+L matrix_display16_32-rescue:MAX7219-Driver_LED U8
 U 1 1 5DEF73F0
 P 7200 6700
 F 0 "U8" H 7357 7645 50  0000 C CNN
@@ -922,7 +921,7 @@ Wire Wire Line
 Wire Wire Line
 	5650 5500 5650 5600
 $Comp
-L matrix_display-rescue:RES(M)-LibCool R7
+L matrix_display16_32-rescue:RES(M)-LibCool-matrix_display-rescue R7
 U 1 1 5DEF745E
 P 5150 5750
 F 0 "R7" V 5150 5808 39  0000 L CNN
@@ -941,7 +940,7 @@ Wire Wire Line
 Wire Wire Line
 	5250 7400 4900 7400
 $Comp
-L Driver_LED:MAX7219 U7
+L matrix_display16_32-rescue:MAX7219-Driver_LED U7
 U 1 1 5DEF746A
 P 5650 6700
 F 0 "U7" H 5807 7645 50  0000 C CNN
@@ -1061,7 +1060,7 @@ Wire Wire Line
 Wire Wire Line
 	10200 7750 10050 7750
 $Comp
-L matrix_display-rescue:Matrix_LED-LibCool U15
+L matrix_display16_32-rescue:Matrix_LED-LibCool-matrix_display-rescue U15
 U 1 1 5DF970C6
 P 11100 7700
 F 0 "U15" H 11728 7595 60  0000 L CNN
@@ -1072,7 +1071,7 @@ F 3 "" H 10800 7900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L matrix_display-rescue:Matrix_LED-LibCool U13
+L matrix_display16_32-rescue:Matrix_LED-LibCool-matrix_display-rescue U13
 U 1 1 5DF970CC
 P 11050 6050
 F 0 "U13" H 11678 5945 60  0000 L CNN
@@ -1101,7 +1100,7 @@ Wire Wire Line
 Text Label 10000 6400 0    50   ~ 0
 5_DIG7
 $Comp
-L matrix_display-rescue:Matrix_LED-LibCool U16
+L matrix_display16_32-rescue:Matrix_LED-LibCool-matrix_display-rescue U16
 U 1 1 5DF970E2
 P 13300 7700
 F 0 "U16" H 13928 7595 60  0000 L CNN
@@ -1168,7 +1167,7 @@ Text Label 13150 8700 1    50   ~ 0
 Text Label 13050 8700 1    50   ~ 0
 8_SEGA
 $Comp
-L matrix_display-rescue:Matrix_LED-LibCool U14
+L matrix_display16_32-rescue:Matrix_LED-LibCool-matrix_display-rescue U14
 U 1 1 5DF97108
 P 13300 6050
 F 0 "U14" H 13928 5945 60  0000 L CNN
@@ -1354,7 +1353,7 @@ Wire Wire Line
 Wire Wire Line
 	2900 4450 3650 4450
 $Comp
-L Driver_LED:MAX7219 U4
+L matrix_display16_32-rescue:MAX7219-Driver_LED U4
 U 1 1 5DEF7420
 P 7200 3650
 F 0 "U4" H 7357 4595 50  0000 C CNN
@@ -1367,7 +1366,7 @@ $EndComp
 Wire Wire Line
 	6700 2550 7200 2550
 $Comp
-L Driver_LED:MAX7219 U3
+L matrix_display16_32-rescue:MAX7219-Driver_LED U3
 U 1 1 5DEF73C6
 P 5650 3650
 F 0 "U3" H 5807 4595 50  0000 C CNN
@@ -1388,7 +1387,7 @@ Wire Wire Line
 Wire Wire Line
 	6700 2850 6800 2850
 $Comp
-L matrix_display-rescue:RES(M)-LibCool R4
+L matrix_display16_32-rescue:RES(M)-LibCool-matrix_display-rescue R4
 U 1 1 5DEF73A6
 P 6700 2700
 F 0 "R4" V 6700 2758 39  0000 L CNN
@@ -1444,7 +1443,7 @@ Connection ~ 5650 2550
 Wire Wire Line
 	5650 2450 5650 2550
 $Comp
-L matrix_display-rescue:RES(M)-LibCool R3
+L matrix_display16_32-rescue:RES(M)-LibCool-matrix_display-rescue R3
 U 1 1 5DEF7377
 P 5150 2700
 F 0 "R3" V 5150 2758 39  0000 L CNN
@@ -1485,7 +1484,7 @@ $EndComp
 Wire Wire Line
 	4050 4850 4050 4650
 $Comp
-L Driver_LED:MAX7219 U2
+L matrix_display16_32-rescue:MAX7219-Driver_LED U2
 U 1 1 5DD564BF
 P 4050 3650
 F 0 "U2" H 4207 4595 50  0000 C CNN
@@ -1567,7 +1566,7 @@ Text Label 4500 4250 0    50   ~ 0
 Text Label 4500 4350 0    50   ~ 0
 2_DIG7
 $Comp
-L Driver_LED:MAX7219 U1
+L matrix_display16_32-rescue:MAX7219-Driver_LED U1
 U 1 1 5DCF699B
 P 2500 3650
 F 0 "U1" H 2657 4595 50  0000 C CNN
@@ -1590,7 +1589,7 @@ Wire Wire Line
 Wire Wire Line
 	3550 2850 3650 2850
 $Comp
-L matrix_display-rescue:RES(M)-LibCool R2
+L matrix_display16_32-rescue:RES(M)-LibCool-matrix_display-rescue R2
 U 1 1 5DD564CB
 P 3550 2700
 F 0 "R2" V 3550 2758 39  0000 L CNN
@@ -1674,7 +1673,7 @@ Connection ~ 2500 2550
 Wire Wire Line
 	2500 2450 2500 2550
 $Comp
-L matrix_display-rescue:RES(M)-LibCool R1
+L matrix_display16_32-rescue:RES(M)-LibCool-matrix_display-rescue R1
 U 1 1 5DD0F649
 P 2000 2700
 F 0 "R1" V 2000 2758 39  0000 L CNN
@@ -1706,7 +1705,7 @@ $EndComp
 NoConn ~ 7600 7500
 NoConn ~ 14050 7450
 $Comp
-L matrix_display-rescue:C(MM)-LibCool C1
+L matrix_display16_32-rescue:C(MM)-LibCool-matrix_display-rescue C1
 U 1 1 5DE42788
 P 6100 9100
 F 0 "C1" V 6100 9178 39  0000 L CNN
@@ -1717,7 +1716,7 @@ F 3 "" H 6100 9100 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L matrix_display-rescue:C(MM)-LibCool C2
+L matrix_display16_32-rescue:C(MM)-LibCool-matrix_display-rescue C2
 U 1 1 5DE70AC3
 P 6350 9100
 F 0 "C2" V 6350 9178 39  0000 L CNN
@@ -1728,7 +1727,7 @@ F 3 "" H 6350 9100 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L matrix_display-rescue:C(MM)-LibCool C3
+L matrix_display16_32-rescue:C(MM)-LibCool-matrix_display-rescue C3
 U 1 1 5DE9A258
 P 6600 9100
 F 0 "C3" V 6600 9178 39  0000 L CNN
@@ -1739,7 +1738,7 @@ F 3 "" H 6600 9100 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L matrix_display-rescue:C(MM)-LibCool C4
+L matrix_display16_32-rescue:C(MM)-LibCool-matrix_display-rescue C4
 U 1 1 5DF61206
 P 6850 9100
 F 0 "C4" V 6850 9178 39  0000 L CNN

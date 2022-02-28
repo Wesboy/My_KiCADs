@@ -30,11 +30,31 @@ X Pin_5 5 200 -200 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Driver_LED_MAX7219
+# matrix_display16_32-rescue_C(MM)-LibCool-matrix_display-rescue
 #
-DEF Driver_LED_MAX7219 U 0 20 Y Y 1 F N
+DEF matrix_display16_32-rescue_C(MM)-LibCool-matrix_display-rescue C 0 10 N Y 1 F N
+F0 "C" -50 100 39 H V L CNN
+F1 "matrix_display16_32-rescue_C(MM)-LibCool-matrix_display-rescue" -100 -100 39 H V L CNN
+F2 "" 38 -150 30 H V C CNN
+F3 "" 0 0 60 H V C CNN
+$FPLIST
+ SM*
+ C?
+ C1-1
+$ENDFPLIST
+DRAW
+P 2 0 1 0 -20 50 -20 -50 N
+P 2 0 1 0 20 50 20 -50 N
+X ~ 1 -100 0 80 R 40 40 1 1 P
+X ~ 2 100 0 80 L 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+# matrix_display16_32-rescue_MAX7219-Driver_LED
+#
+DEF matrix_display16_32-rescue_MAX7219-Driver_LED U 0 20 Y Y 1 F N
 F0 "U" -250 950 50 H V L BNN
-F1 "Driver_LED_MAX7219" 50 1000 50 H V L TNN
+F1 "matrix_display16_32-rescue_MAX7219-Driver_LED" 50 1000 50 H V L TNN
 F2 "" -50 50 50 H I C CNN
 F3 "" 50 -150 50 H I C CNN
 $FPLIST
@@ -70,48 +90,11 @@ X GND 9 0 -1000 100 U 50 50 1 1 P N
 ENDDRAW
 ENDDEF
 #
-# XC6228D332VR-G
+# matrix_display16_32-rescue_Matrix_LED-LibCool-matrix_display-rescue
 #
-DEF XC6228D332VR-G U 0 40 Y Y 1 F N
-F0 "U" 0 250 50 H V C CNN
-F1 "XC6228D332VR-G" 0 -250 50 H V C CNN
-F2 "" 0 250 50 H I C CNN
-F3 "" 0 250 50 H I C CNN
-DRAW
-S -300 -200 300 200 0 1 0 N
-X VIN 1 -400 100 100 R 50 50 1 1 I
-X VSS 2 -400 0 100 R 50 50 1 1 I
-X EN 3 -400 -100 100 R 50 50 1 1 I
-X NC 4 400 -100 100 L 50 50 1 1 O
-X VOUT 5 400 100 100 L 50 50 1 1 O
-ENDDRAW
-ENDDEF
-#
-# matrix_display-rescue_C(MM)-LibCool
-#
-DEF matrix_display-rescue_C(MM)-LibCool C 0 10 N Y 1 F N
-F0 "C" -50 100 39 H V L CNN
-F1 "matrix_display-rescue_C(MM)-LibCool" -100 -100 39 H V L CNN
-F2 "" 38 -150 30 H V C CNN
-F3 "" 0 0 60 H V C CNN
-$FPLIST
- SM*
- C?
- C1-1
-$ENDFPLIST
-DRAW
-P 2 0 1 0 -20 50 -20 -50 N
-P 2 0 1 0 20 50 20 -50 N
-X ~ 1 -100 0 80 R 40 40 1 1 P
-X ~ 2 100 0 80 L 40 40 1 1 P
-ENDDRAW
-ENDDEF
-#
-# matrix_display-rescue_Matrix_LED-LibCool
-#
-DEF matrix_display-rescue_Matrix_LED-LibCool U 0 40 Y Y 1 F N
+DEF matrix_display16_32-rescue_Matrix_LED-LibCool-matrix_display-rescue U 0 40 Y Y 1 F N
 F0 "U" -550 650 60 H V C CNN
-F1 "matrix_display-rescue_Matrix_LED-LibCool" 600 -650 60 H V C CNN
+F1 "matrix_display16_32-rescue_Matrix_LED-LibCool-matrix_display-rescue" 600 -650 60 H V C CNN
 F2 "" -300 200 60 H V C CNN
 F3 "" -300 200 60 H V C CNN
 DRAW
@@ -199,11 +182,11 @@ X DIG0 9 -900 350 300 R 50 39 1 1 B
 ENDDRAW
 ENDDEF
 #
-# matrix_display-rescue_RES(M)-LibCool
+# matrix_display16_32-rescue_RES(M)-LibCool-matrix_display-rescue
 #
-DEF matrix_display-rescue_RES(M)-LibCool R 0 40 Y Y 1 F N
+DEF matrix_display16_32-rescue_RES(M)-LibCool-matrix_display-rescue R 0 40 Y Y 1 F N
 F0 "R" 0 75 39 H V C CNN
-F1 "matrix_display-rescue_RES(M)-LibCool" 0 -75 39 H V C CNN
+F1 "matrix_display16_32-rescue_RES(M)-LibCool-matrix_display-rescue" 0 -75 39 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
